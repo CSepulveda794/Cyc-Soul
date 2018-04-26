@@ -1,0 +1,44 @@
+nav {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 44, 47);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(0, 148, 70);
+}
+
+#logo {
+    float: left;
+}
+
+#navLink {
+    display: block;
+    padding-left: 2.2%;
+    padding-right: 2.2%;
+    padding-top: 1%;
+}
+
+#name {
+    float: right;
+}
