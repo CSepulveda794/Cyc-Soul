@@ -32,7 +32,16 @@ li a:hover {
 
 #navLink{
     display: block;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
     padding-top: 1%;
 }
+
+#name {
+    float: right;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+   }
