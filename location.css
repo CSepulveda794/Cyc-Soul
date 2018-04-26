@@ -1,6 +1,7 @@
 nav {
     background-color: aquamarine;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,18 +23,19 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: rgb(0, 148, 70);
 }
 
-#logo{
+#logo {
     float: left;
 }
 
-#navLink{
+#navLink {
     display: block;
-    padding-left: 8.5%;
-    padding-right: 8.5%;
+    padding-left: 2.2%;
+    padding-right: 2.2%;
     padding-top: 1%;
 }
 
@@ -44,4 +46,21 @@ li a:hover {
 #map {
     height: 400px;
     width: 100%;
-   }
+}
+
+.warehouse{
+    padding: 10px;
+}
+
+.house1{
+    float: left;
+}
+.house2{
+    float: right;
+}
+.house3{
+    float: left;
+}
+.house4{
+    float: right;
+}
