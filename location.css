@@ -1,21 +1,71 @@
+html{
+    width: 100%;
+}
+
+/* Map styles */
 #map {
     height: 400px;
     width: 100%;
 }
 
+/* Warehouse Styles */
 .warehouse{
     padding: 10px;
 }
 
-.house1{
-    float: left;
+.house > img{
+    width: 200px;
+    height: 150px;
 }
-.house2{
-    float: right;
+
+#house1{
+    padding: 10px;
 }
-.house3{
-    float: left;
+#house2{
+    padding: 10px;
 }
-.house4{
-    float: right;
+#house3{
+    padding: 10px;
+}
+#house4{
+    padding: 10px;
+}
+
+.warehouse {
+    display: flex;
+}
+
+/* Text on Warehouse */
+.house {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* .hoverOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.warehouse:hover  .hoverOver {
+    opacity: 0;
+} */
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
