@@ -42,3 +42,63 @@ li a:hover {
 #name {
     float: right;
 }
+
+/*Media Query*/
+@media screen and (max-width: 1051.7px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink{
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+}
+@media screen and (max-width: 946px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media screen and (max-width: 883.92px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+/* ========================================================= */
+/* Fix This later */
+/* @media screen and (max-width: 690px) {
+    ul {
+        background-color: blue;
+    }
+    #navLink {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #name{
+        width: 20%;
+        float: none;
+    }
+    #logo{
+        width: 20%;
+    }
+} */
+/* ========================================================= */
