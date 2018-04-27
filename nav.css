@@ -44,6 +44,43 @@ li a:hover {
 }
 
 /*Media Query*/
+@media screen and (max-width: 2000px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 4.8%;
+        padding-right: 4.8%;
+    }
+}
+@media screen and (max-width: 1800px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 2.7%;
+        padding-right: 2.7%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    ul {
+        background-color: rgb(41, 44, 47);
+    }
+    #navLink {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
 @media screen and (max-width: 1051.7px) {
     ul {
         background-color: rgb(41, 44, 47);
