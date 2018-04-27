@@ -29,7 +29,22 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(41, 44, 47);
+
 }
+
+/* ========================================================== */
+/* Getting rid of white space */
+/* *{
+     background-color: black;
+     padding: none;
+     margin: none;
+     border: none;
+} */
+
+nav ul{
+    white-space: nowrap;
+}
+/* ========================================================== */
 
 li {
     float: left;
