@@ -17,6 +17,7 @@ body {
 header {
     background: black;
     padding: 0px;
+    padding-bottom: 20px;
 }
 
 nav {
@@ -62,17 +63,53 @@ li a:hover {
 
 
 section {
-    background: black;
+    background: rgb(0, 148, 70);
+    padding-bottom: 20px;
 }
 
-h1 {
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 60px;
+}
+h2{
     text-align: center;
     background: rgb(0, 148, 70);
-    padding-bottom: 60px;
-}
+    padding-bottom: 10px;
+} 
 
 #carousel {
-    height: 700px;
-    padding-bottom: 60px;
+    height: 600px;
     background: black;
 }
+
+#help {
+    background: black;
+}
+
+.warehouse{
+    height: 200px;
+    padding-top: 60px;
+    
+}
+
+.house{
+    display: inline;
+    padding: 100px;
+    transform: translateX(-40px);
+}
+
+#ways{
+    padding-top: 20px; 
+}
+
+p{
+    color: white;
+    display: inline;
+    font-size: 2em;
+    padding: 150px;
+  
+}
+
