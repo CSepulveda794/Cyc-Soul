@@ -1,0 +1,47 @@
+.colorPicker {
+    display: inline-block;
+    /* width: 100%; */
+    height: 20px;
+}
+
+.colorPicker>div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 4px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.colorPicker>div:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.colorPicker>div.active i {
+    visibility: visible;
+}
+
+.colorPicker>div i {
+    vertical-align: middle;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.canvas {
+    width: 530px;
+    height: 630px;
+}
+
+#main-canvas{
+    outline: 10px solid red;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="t-shirt.css">
 </head>
 
 <body>
@@ -33,7 +34,44 @@
             </ul>
         </nav>
     </header>
-    
-    <script src="../t-shirt.js"></script>
+
+    <div class="colorPicker">
+        <div style="background-color: rgb(98,98,98)" class="active">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(76,76,76)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(55,55,55)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(90,90,90)">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(90,90,90)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(235,235,235)">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(255,0,0)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(0,255,0)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+        <div style="background-color: rgb(0,0,255)" class="">
+            <i class="fa fa-check"></i>
+        </div>
+    </div>
+    <div id="main-canvas" class="canvas">
+        <svg height="630" version="1.1" width="530" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;">
+            <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.0</desc>
+            <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+            <image x="0" y="0" width="530" height="630" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="http://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_front.png" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></image>
+        </svg>
+    </div>
+    <script src="../js/t-shirt.js"></script>
 </body>
 </html>
