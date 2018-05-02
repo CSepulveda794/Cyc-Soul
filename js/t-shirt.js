@@ -60,9 +60,7 @@ $(document).ready(function () {
     });
 
     var paper = Raphael(document.getElementById("main-canvas"), 530, 630);
-    var url_shirt = "http://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_front.png";
+    var url_shirt = "../photos/t-shirt.jpg";
     var image = paper.image(url_shirt, 0, 0, 530, 630);
 
 });
-
-alert("test")

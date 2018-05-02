@@ -45,3 +45,10 @@
 //Create/ design a suitable webform
 
 //Finish up the about us page
+// ============================================================
+/*Day 6*/
+// Started working on the products page
+
+//Started creating t-shirts
+
+//
