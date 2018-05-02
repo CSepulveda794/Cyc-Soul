@@ -1,12 +1,18 @@
-#voulunteer {
-     max-width: 700px;
-     background-color: white;
-     margin: 100px auto;
-     overflow: hidden;
-     padding: 25px;
-     color: gray;
+body {
+    background: black;
+    padding: 0px;
 }
-#voulunteer ._1{
+
+#voulunteer {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+#voulunteer ._1 {
     width: 100%;
     margin-top: 3px;
     font-size: 24px;
@@ -16,6 +22,7 @@
 
 
 /* Donate styles */
+
 .donate {
     max-width: 700px;
     background-color: white;
@@ -30,7 +37,7 @@
     margin-bottom: 10px;
 }
 
-.donate  h1 {
+.donate h1 {
     text-align: center;
 }
 
