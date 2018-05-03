@@ -1,0 +1,22 @@
+#black{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#button1 {
+    background: black;
+    height: 5%;
+    width: 5%;
+}
+#button2 {
+    background: #36454f;
+    height: 5%;
+    width: 5%;
+}
+
+#button3{
+    background: grey;
+    height: 5%;
+    width: 5%;
+}
