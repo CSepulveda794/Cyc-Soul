@@ -1,3 +1,14 @@
 #t-shirt{
     width: 20%;
+    float: left;
+}
+
+#mug{
+    width: 20%;
+    float: left;
+}
+
+#hat{
+    width: 50%;
+    float: left;
 }
