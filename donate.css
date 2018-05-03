@@ -2,6 +2,14 @@ body {
     background: black;
     padding: 0px;
 }
+#boxes{
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
 
 #voulunteer {
     max-width: 700px;

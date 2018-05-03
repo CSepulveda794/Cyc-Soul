@@ -45,3 +45,16 @@
 //Create/ design a suitable webform
 
 //Finish up the about us page
+
+// ============================================================
+/*Day 6*/
+
+//Start on the CSS for the products page and the individual products themselves
+
+//Start on making a footer
+
+//Make a fake email for the footer
+
+//Try to start on about 
+
+//Start on the investor questions
