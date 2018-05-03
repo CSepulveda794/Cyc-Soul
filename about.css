@@ -10,10 +10,12 @@ header{
   padding-bottom: 20px;
 }
 
-div.card {
-  background-color:  white;
+#info {
+  padding: 10%;
 }
 
-div.card-deck{
-  background-color:  black;
+#info div {
+  margin: 5% auto;
+  width: 50%;
+  text-align: center;
 }
