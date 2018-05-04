@@ -17,5 +17,3 @@
 // Date Available 30 Days• 1, 748 s.f.of new office• Five dock positions T5 energy efficient warehouse lighting• Clear height: 24’• Power: 200 amps, 277 / 480 V• Rail capable
 
 // ========================Information=============================
-
-// ========================Information=============================
