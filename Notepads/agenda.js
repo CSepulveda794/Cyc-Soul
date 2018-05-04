@@ -58,3 +58,18 @@
 //Try to start on about 
 
 //Start on the investor questions
+
+// ============================================================
+/*Day 7*/
+
+//Create more colored products for our company
+
+//Add products using JavaScript
+
+//Work on completing the css for the products page and the sub html's for that page
+
+//Change the contact us page to a local drive page
+
+//Research locations that can be used for local drive
+
+//Research the utily cost of the warehouse
