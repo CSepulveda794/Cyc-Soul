@@ -1,5 +1,49 @@
-#hat{
-    width: 70%;
+#hat {
+    width: 40%;
     display: block;
-    margin: 0 auto;
+    margin-left: 2%;
+    padding-top: 3%;
+}
+
+html {
+    background: black;
+}
+
+#black {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0;
+}
+
+#button1 {
+    background: black;
+    height: 5%;
+    width: 5%;
+    margin-left: 17%;
+}
+
+#button2 {
+    background: #36454f;
+    height: 5%;
+    width: 5%;
+}
+
+#button3 {
+    background: grey;
+    height: 5%;
+    width: 5%;
+}
+
+.buttons {
+    display: inline;
+}
+
+section {
+    padding-top: 30px;
+}
+
+h1 {
+    color: white;
+    padding-left: 13%;
 }
