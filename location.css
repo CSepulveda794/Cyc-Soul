@@ -1,33 +1,40 @@
-html{
+html {
     width: 100%;
 }
 
+
 /* Map styles */
+
 #map {
     height: 400px;
     width: 100%;
 }
 
+
 /* Warehouse Styles */
-.warehouse{
+
+.warehouse {
     padding: 10px;
 }
 
-.house > img{
+.house>img {
     width: 200px;
     height: 150px;
 }
 
-#house1{
+#house1 {
     padding: 10px;
 }
-#house2{
+
+#house2 {
     padding: 10px;
 }
-#house3{
+
+#house3 {
     padding: 10px;
 }
-#house4{
+
+#house4 {
     padding: 10px;
 }
 
@@ -35,12 +42,15 @@ html{
     display: flex;
 }
 
+
 /* Text on Warehouse */
+
 .house {
     display: block;
     width: 100%;
     height: auto;
 }
+
 
 /* .hoverOver {
     position: absolute;
@@ -70,35 +80,36 @@ html{
     text-align: center;
 }
 
-.warehouse{
+.warehouse {
     background: radial-gradient(green, black)
 }
 
-h3{
+h3 {
     background-color: black;
     color: white;
 }
 
-body{
+body {
     background: black
 }
 
-.showHover{
+.showHover {
     font-size: 1.5em;
     color: lightblue;
 }
 
 
 /* Below Google map styles */
-h1{
-    color: white;
+
+h1 {
+    color: lightgray;
     text-align: center;
+    text-decoration: underline;
 }
 
-.Wbelow{
+.Wbelow {
     color: white;
     font-size: 1.2em;
     text-align: center;
     padding-right: 30%
 }
-
