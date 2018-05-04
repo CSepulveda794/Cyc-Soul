@@ -1,14 +1,37 @@
-#t-shirt{
-    width: 20%;
-    float: left;
+html {
+    background: black;
 }
 
-#mug{
-    width: 20%;
+figure {
+    width: 30%;
     float: left;
+    margin: 0;
+    text-align: center;
+    padding-top: 0%;
+    padding-left: 10%;
 }
 
-#hat{
+figcaption {
+    font-size: 2em;
+    color: white;
+    background: radial-gradient(green, black);
+}
+
+a img {
     width: 50%;
-    float: left;
+}
+
+#mug {
+    height: 70%;
+}
+
+section {
+    background: black;
+    padding-bottom: 120px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
 }
