@@ -14,15 +14,20 @@ html {
 #shoe{
     background: white;
     width: 5%;
+    height: 5%;
     display: block;
     margin: 0;
     float: left;
     margin-left: 10%;
+    /* background-image: url("../logo.png");
+    background-repeat: no-repeat;
+    background-position:left top */
 }
 
 #word{
     background: white;
     width: 5%;
+    height: 5%;
     display: block;
     margin: 0;
     float: left;
