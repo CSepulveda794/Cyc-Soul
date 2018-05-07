@@ -99,7 +99,6 @@ h2 {
 
 #ways {
     padding-top: 20px;
-
 }
 
 p {
@@ -113,9 +112,12 @@ figcaption {
     color: white;
     background: radial-gradient(green, black);
 }
-figure{
+
+figure {
     padding-bottom: 30px;
 }
+
+
 /* img {
     padding: 15px;
 } */

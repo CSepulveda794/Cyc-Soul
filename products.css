@@ -19,11 +19,18 @@ figcaption {
 
 a img {
     width: 50%;
+    height: 200px;
 }
 
-#mug {
-    height: 70%;
+#t-shirt,
+#hat {
+    width: 200px;
 }
+
+
+/* a #mug {
+    height: 90%;
+} */
 
 section {
     background: black;
@@ -31,7 +38,13 @@ section {
 }
 
 h1 {
+    padding-top: 3%;
     color: white;
     text-align: center;
     font-size: 3em;
+}
+
+h2 {
+    color: white;
+    text-align: center;
 }
