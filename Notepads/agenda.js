@@ -73,3 +73,16 @@
 //Research locations that can be used for local drive
 
 //Research the utily cost of the warehouse
+
+// ============================================================
+/*Day 8*/
+
+//Fix google maps to show multiple drives in our local, location
+
+//Start adding in some economic plans like the utility bills
+
+//Start on fixing both buttons of the mug to show the icon and our name
+
+//Start on finding local schools/areas where we could station our drives
+
+//Start on unifying our website
