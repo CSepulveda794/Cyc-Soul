@@ -32,11 +32,25 @@ html {
     display: inline;
 }
 
-section {
-    padding-top: 30px;
-}
+section {}
 
 h1 {
     color: white;
     padding-left: 13%;
+}
+
+h2 {
+    color: grey;
+    padding-left: 30%;
+}
+
+#form {
+    background: white;
+    width: 40%;
+    float: right;
+    transform: translateY(-425px);
+}
+
+#t-shirt {
+    padding-left: 3%;
 }
