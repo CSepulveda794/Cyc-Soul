@@ -11,23 +11,23 @@ html {
 }
 
 
-#shoe{
+#button1{
     background: white;
     width: 5%;
     height: 5%;
     display: block;
     margin: 0;
-    float: left;
     margin-left: 10%;
+    float: left;
 }
 
-#word{
+#button2{
     background: white;
     width: 5%;
     height: 5%;
+    float: left;
     display: block;
     margin: 0;
-    float: left;
 }
 
 section {

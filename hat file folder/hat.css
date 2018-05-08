@@ -16,15 +16,21 @@ html {
     margin: 0;
 }
 
-#button1 {
-    height: 5%;
+#button1{
     width: 5%;
-    margin-left: 17%;
+    height: 5%;
+    display: block;
+    margin: 0;
+    margin-left: 16%;
+    float: left;
 }
 
-#button2 {
-    height: 5%;
+#button2{
     width: 5%;
+    height: 5%;
+    display: inline-block;
+    margin: 0;
+    float: left;
 }
 
 #button3 {
