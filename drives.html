@@ -72,11 +72,11 @@
     <script>
         var lat = 33.293557;
         var lon = -111.096896;
-        if (document.getElementById("location").onclick) {
-            alert(lat)
-        } else {
+        // if (document.getElementById("location").onclick) {
+        //     alert(lat)
+        // } else {
 
-        }
+        // }
 
         function initMap() {
             var uluru = {
@@ -91,6 +91,11 @@
                 position: uluru,
                 map: map
             });
+
+            $("p").click(function () {
+                lat = -33.293557
+                alert("The paragraph was clicked.");
+        });
         }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTMhd2NOvzsVkF--6iN6J0N3G5FgSv2s&callback=initMap">
@@ -105,12 +110,6 @@
     </footer>
 
     <script src="js/jquery.slim.min.js"></script>
-
-    <script>
-        $("p").click(function () {
-            alert("The paragraph was clicked.");
-        });
-    </script>
 
 </body>
 
