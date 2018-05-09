@@ -23,5 +23,6 @@ window.addEventListener("load", function() {
 
     c = a * b;
     d = c + 4.99;
+    document.getElementById("TOTAL") = d;
     document.getElementById('Cost').value = Math.max(Math.round(d * 100) / 100);
 });
