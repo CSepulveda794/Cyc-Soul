@@ -1,0 +1,50 @@
+html {
+    background: black;
+}
+
+figure {
+    width: 30%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding-top: 0%;
+    padding-left: 10%;
+}
+
+figcaption {
+    font-size: 2em;
+    color: white;
+    background: radial-gradient(green, black);
+}
+
+a img {
+    width: 50%;
+    height: 200px;
+}
+
+#t-shirt,
+#hat {
+    width: 200px;
+}
+
+
+/* a #mug {
+    height: 90%;
+} */
+
+section {
+    background: black;
+    padding-bottom: 120px;
+}
+
+h1 {
+    padding-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}

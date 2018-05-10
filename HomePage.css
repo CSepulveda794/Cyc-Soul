@@ -81,8 +81,15 @@ h2 {
     padding-bottom: 10px;
 }
 
+
+/* body {
+    padding-left: 5%;
+    padding-right: 5%;
+} */
+
 #carousel {
     height: 600px;
+    width: 80%;
     background: black;
 }
 
@@ -113,6 +120,11 @@ figcaption {
     background: radial-gradient(green, black);
 }
 
-img {
-    padding: 15px;
+figure {
+    padding-bottom: 30px;
 }
+
+
+/* img {
+    padding: 15px;
+} *

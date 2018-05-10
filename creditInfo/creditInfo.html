@@ -1,72 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="donate.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="icon" href="logo.png">
-    <title>Ways to Give</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>creditInfo</title>
+    <link rel="stylesheet" href="credit.css">
+    <link rel="stylesheet" href="../donate.css">
+    <link rel="stylesheet" href="../nav.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+                <img src="../logo.png" alt="logo" style="width: 70px" id="logo">
                 <li id="navLink">
-                    <a href="index.html">Home Page</a>
+                    <a href="../index.html">Home Page</a>
                 </li>
                 <li id="navLink">
-                    <a href="aboutUs.html">About Us</a>
+                    <a href="../aboutUs.html">About Us</a>
                 </li>
                 <li id="navLink">
-                    <a href="locations.html">Locations</a>
+                    <a href="../locations.html">Locations</a>
                 </li>
                 <li id="navLink">
-                    <a href="products.html">Products</a>
+                    <a href="../products.html">Products</a>
                 </li>
                 <li id="navLink">
-                    <a href="donations.html">Ways To Give</a>
+                    <a href="../donations.html">Ways To Give</a>
                 </li>
                 <li id="navLink">
-                    <a href="drives.html">Shoe Drives</a>
+                    <a href="../contact.html">Contact Us</a>
                 </li>
-                <img src="name.png" alt="Cyc-soul" width="70px" id="name">
+                <img src="../name.png" alt="Cyc-soul" width="70px" id="name">
             </ul>
         </nav>
     </header>
-
-    <!-- create form here for voulunteers and maybe an actual contact with an emailor phone -->
-    <form id="voulunteer">
-        <h1>Volunteer</h1>
-        First name:<br>
-        <input type="text" name="firstname" placeholder="First"><br> Last name:<br>
-        <input type="text" name="lastname" placeholder="Last">
-        <br> Gender:
-        <br>
-        <select name="gender">
-            <option value="select">(Select One)</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select>
-        <br> City you Live in:
-        <br>
-        <input type="text">
-        <div class="group" id="donateNow">
-            <button type="submit" class="_1">Sign up Now</button>
-        </div>
-    </form>
-
-    <!-- ======================================= -->
     <div class="donate">
-        <h1>Donate</h1>
+        <h1>Total Cost</h1>
         <div class="payment">
             <form>
                 <div>
-                    <label for="donate">Amount To Donate</label>
-                    <input type="number" min="0" value="10">
+                    <label for="donate">Cost</label>
+                    <input type="text" name="Cost" id="Cost">
                 </div>
                 <br>
                 <div class="group owner">
@@ -120,30 +98,8 @@
             </form>
         </div>
     </div>
-
-<form id="boxes">
-    <h1>Donation Boxes</h1>
-    Name: <br>
-    <input type="text" name="name" placeholder="Last name, First name"> <br>
-    State: <br>
-    <input type="text" name="state" placeholder="state"> <br>
-    City: <br>
-    <input type="text" name="city" placeholder="city"> <br>
-    Zip: <br>
-    <input type="text" name="zip" placeholder="zip-code"> <br>
-    <div class="group" id="donateNow">
-            <button type="submit" class="_1">Search Now</button>
-        </div>
-</form>
-
-<!-- State, location, zip-code, name. -->
-
-
-
-    <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul
-        <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a>
-        <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a>
-    </footer>
+    <script src="t-shirt.html"></script>
+    <script src="credit.js"></script>
 </body>
 
 </html>

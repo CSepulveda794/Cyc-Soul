@@ -1,0 +1,70 @@
+html {
+    background: black;
+}
+
+#black {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0;
+}
+
+#button1 {
+    background: black;
+    height: 5%;
+    width: 5%;
+    margin-left: 17%;
+}
+
+#button2 {
+    background: #36454f;
+    height: 5%;
+    width: 5%;
+}
+
+#button3 {
+    background: grey;
+    height: 5%;
+    width: 5%;
+}
+
+.buttons {
+    display: inline;
+}
+
+section {}
+
+h1 {
+    color: white;
+    padding-left: 13%;
+}
+
+h2 {
+    color: grey;
+    padding-left: 30%;
+}
+
+#form {
+    background: white;
+    width: 40%;
+    float: right;
+    transform: translateY(-425px);
+    height: 60%;
+}
+
+#t-shirt {
+    padding-left: 3%;
+}
+
+section #price {
+    display: none;
+}
+
+#qty,
+#price,
+label,
+#total {
+    float: right;
+    position: absolute;
+    display: inline;
+}

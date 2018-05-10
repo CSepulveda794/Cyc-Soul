@@ -1,12 +1,27 @@
-#voulunteer {
-     max-width: 700px;
-     background-color: white;
-     margin: 100px auto;
-     overflow: hidden;
-     padding: 25px;
-     color: gray;
+body {
+    background: black;
+    padding: 0px;
 }
-#voulunteer ._1{
+
+#boxes {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+#voulunteer {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+#voulunteer ._1 {
     width: 100%;
     margin-top: 3px;
     font-size: 24px;
@@ -16,6 +31,7 @@
 
 
 /* Donate styles */
+
 .donate {
     max-width: 700px;
     background-color: white;
@@ -30,7 +46,7 @@
     margin-bottom: 10px;
 }
 
-.donate  h1 {
+h1 {
     text-align: center;
 }
 
@@ -81,7 +97,7 @@
     margin-top: 25px;
 }
 
-.donate .payment ._1 {
+._1 {
     width: 100%;
     margin-top: 3px;
     font-size: 24px;
@@ -92,4 +108,11 @@
 .donate .payment select {
     padding: 10px;
     margin-right: 15px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
 }
