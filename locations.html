@@ -36,33 +36,35 @@
         </ul>
     </nav>
     <!-- This is the start of the google maps -->
-    <h1>Our Location</h1>
-    <div id="map"></div>
-    <script>
-        function initMap() {
-            var uluru = {
-                lat: 33.452855,
-                lng: -112.154970
-            };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTMhd2NOvzsVkF--6iN6J0N3G5FgSv2s&callback=initMap">
-    </script>
-    <!-- This is the end of the google maps -->
+    <section id="container">
+        <h1>Our Location</h1>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 33.452855,
+                    lng: -112.154970
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTMhd2NOvzsVkF--6iN6J0N3G5FgSv2s&callback=initMap">
+        </script>
+        <!-- This is the end of the google maps -->
 
-    <!-- Below google maps -->
-    <div class="below">
-        <h1>Warehouse/ Front Office</h1>
-        <p class="Wbelow">Located: 4441 W Polk St Phoenix, AZ 85043</p>
-    </div>
+        <!-- Below google maps -->
+        <div class="below">
+            <h1>Warehouse/ Front Office</h1>
+            <p class="Wbelow">Located: 4441 W Polk St Phoenix, AZ 85043</p>
+        </div>
+    </section>
     <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a> <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a></footer>
 </body>
 
