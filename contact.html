@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="logo.png">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+            <li id="navLink">
+              <a href="index.html">Home Page</a>
+            </li>
+            <li id="navLink">
+              <a href="aboutUs.html">About Us</a>
+            </li>
+            <li id="navLink">
+              <a href="locations.html">Locations</a>
+            </li>
+            <li id="navLink">
+              <a href="products.html">Products</a>
+            </li>
+            <li id="navLink">
+              <a href="donations.html">Ways To Give</a>
+            </li>
+            <li id="navLink">
+              <a href="contact.html">Contact Us</a>
+            </li>
+            <img src="name.png" alt="Cyc-soul" width="70px" id="name">
+          </ul>
+        </nav>
+    </header>
+
+
+    <!-- create form here for voulunteers and maybe an actual contact with an emailor phone -->
+    <form id="voulunteer">
+      <h1>Voulunteer</h1>
+        First name:<br>
+        <input type="text" name="firstname" placeholder="имя"><br>
+        Last name:<br>
+        <input type="text" name="lastname" placeholder="Фамилия">
+        <br>
+        Gender:<br>
+        <select name="gender">
+          <option value="select">(一つ選択してください)</option>
+          <option value="male">男性</option>
+          <option value="female">女性</option>
+        </select>
+        <br>
+        Race:<br>
+        <select name="race">
+          <option value="select">(Select One)</option>
+          <option value="Leichttraktor">Leichttraktor</option>
+          <option value="panzer">Panzer I</option>
+          <option value="panzer">Panzer II</option>
+          <option value="panzer">Panzer III</option>
+          <option value="panzer">Panzer IV</option>
+          <option value="Neubaufahrzeug">Neubaufahrzeug</option>
+          <option value="panther">Panther</option>
+          <option value="panther">Panther II</option>
+          <option value="tiger">Tiger</option>
+          <option value="tiger">Tiger II</option>
+          <option value="löwe">Löwe</option>
+          <option value="Maus">Maus</option>
+          <option value="E-100">E-100</option>
+          <option value="panzer">Panzer IX</option>
+          <option value="panzer">Panzer X</option>
+        </select>
+        <div class="group" id="donateNow">
+          <button type="submit" class="_1">Sign up Now</button>
+        </div>
+    </form>
+
+    <!-- ======================================= -->
+    <div class="donate">
+        <h1>Donate</h1>
+      <div class="payment">
+        <form>
+          <div class="group owner">
+            <label for="owner">Name on Card</label>
+            <input type="text" class="form-control" id="owner" placeholder="فلان الفلاني">
+          </div>
+          <div class="group CVV">
+            <label for="cvv">CVV</label>
+            <input type="text" class="form-control" id="cvv" placeholder="üç sayı"> <!-- three numbers -->
+          </div>
+          <div class="group" id="card-numberField">
+            <label for="cardNumber">Card Number</label>
+            <input type="text" class="form-control" id="cardNumber" placeholder="siyam ka numero"> <!-- nine numbers -->
+          </div>
+          <div class="group" id="expirationDate">
+            <label>Expiration Date</label>
+            <select>
+              <option value="01">January</option>
+              <option value="02">February </option>
+              <option value="03">March</option>
+              <option value="04">April</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">August</option>
+              <option value="09">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+            <select>
+              <option value="19"> 2019</option>
+              <option value="20"> 2020</option>
+              <option value="21"> 2021</option>
+              <option value="22"> 2022</option>
+              <option value="23"> 2023</option>
+              <option value="24"> 2024</option>
+            </select>
+          </div>
+          <!-- Images -->
+          <!-- <div class="form-group" id="credit_cards">
+            <img src="assets/images/visa.jpg" id="visa">
+            <img src="assets/images/mastercard.jpg" id="mastercard">
+            <img src="assets/images/amex.jpg" id="amex">
+          </div> -->
+          <div class="group" id="donateNow">
+            <button type="submit" class="_1">Donate Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -16,25 +16,17 @@ html {
     margin: 0;
 }
 
-#button1 {
-    height: 5%;
+#button1{
     width: 5%;
-    margin-left: 17%;
+    height: 5%;
+    margin-left: 16%;
+    float: left;
 }
 
-#button2 {
-    height: 5%;
+#button2{
     width: 5%;
-}
-
-#button3 {
-    background: grey;
     height: 5%;
-    width: 5%;
-}
-
-.buttons {
-    display: inline;
+    float: left;
 }
 
 section {
@@ -56,8 +48,4 @@ h2 {
     width: 40%;
     float: right;
     transform: translateY(-485px);
-}
-
-#t-shirt {
-    padding-left: 3%;
 }

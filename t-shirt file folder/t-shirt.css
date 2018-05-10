@@ -55,16 +55,3 @@ h2 {
 #t-shirt {
     padding-left: 3%;
 }
-
-section #price {
-    display: none;
-}
-
-#qty,
-#price,
-label,
-#total {
-    float: right;
-    position: absolute;
-    display: inline;
-}

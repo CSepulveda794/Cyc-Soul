@@ -110,6 +110,12 @@ h1 {
     margin-right: 15px;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50%;
+}
+
 h2 {
     color: white;
     text-align: center;
