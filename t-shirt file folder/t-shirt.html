@@ -43,8 +43,8 @@
         <input type="button" class="buttons" id="button3">
     </section>
     <section id="form">
-        <form>
-            <h2>Order</h2>
+        <form method="get" action="../creditInfo/creditInfo.html">
+            <h2>2000 Gildan Ultra Cotton Tee</h2>
             <h3>$16.50</h3>
             Size
             <br>
@@ -55,19 +55,26 @@
             <br>
             <input type="text" name="adress" placeholder="123 North Jefferson ST. Wickenburg AZ">
             <br>
-            <br>Qty
+            <br><label>Qty</label>
             <br>
-            <input type="number" min="1" value="1">
+            <input type="number" min="1" value="1" id="qty">
+            <br>
+            <br> <label>Shipping and Handling Fee $4.99</label>
+            <input type="text" name="price" id="price" value="16.50">
+            <br>
+            <br><label>Total Cost</label>
+            <br>
+            <input type="text" name="TOTAL" id="TOTAL" />
             <br>
             <br>
-            <br>
-            <div class="group" id="donateNow">
-                <button type="submit" class="_1">Check Out Here</button>
-            </div>
+            <input type="submit" value="check out">
         </form>
     </section>
 
+    <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a> <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a></footer>
+
     <script src="t-shirt.js"></script>
+    <script src="credit.js"></script>
 </body>
 
 </html>

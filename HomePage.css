@@ -81,14 +81,27 @@ h2 {
     padding-bottom: 10px;
 }
 
+
+/* body {
+    padding-left: 5%;
+    padding-right: 5%;
+} */
+
+#container {
+    padding-right: 6.2%;
+    padding-left: 6.2%;
+}
+
 #carousel {
     height: 600px;
+    width: 80%;
     background: black;
 }
 
 .buttonImg {
     height: 200px;
     padding-top: 60px;
+    padding-left: 20%;
 }
 
 .house {
@@ -128,12 +141,12 @@ figure {
    =========================
 */
 
+
 /* @media only screen and (max-width: 480px) {
     .buttonImg{
         display: none;
     } 
 } */
-
 
 
 /* ============================================
@@ -145,8 +158,7 @@ figure {
     .buttonImg{
         display: none;
     }
-
-    nav ul li a{
+    nav ul li a {
         font-size: 10px;
     }
 }
@@ -156,8 +168,9 @@ figure {
    Desktop Styles: 760px and greater
    ============================================
 */
-@media only screen and (min-width: 768px){
-    .buttonImg{
+
+@media only screen and (min-width: 768px) {
+    .buttonImg {
         display: block;
     }
-  }
+}
