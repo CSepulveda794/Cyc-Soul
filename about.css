@@ -1,6 +1,45 @@
-/*
-     Author: Michael Wood
-     Date:  4.26.18
-     Filename: About.css 
+@charset "UTF-8";
 
-*/
+
+body{
+  background-color: black;
+}
+
+header{
+  background: black;
+  padding-bottom: 20px;
+}
+
+#info {
+  width: 100%;
+}
+
+#info div {
+  margin: 5% auto;
+  width: 50%;
+  text-align: center;
+}
+
+div#about{
+    /*width: 300px;*/
+    border: 25px solid rgb(101, 157, 38);
+    padding: 25px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+div#mission{
+  /*width: 300px;*/
+  border: 25px solid rgb(101, 157, 38);
+  padding: 25px;
+  background-color: white;
+  border-radius: 30%;
+}
+
+div#vision{
+  /*width: 300px;*/
+  border: 25px solid rgb(101, 157, 38);
+  padding: 25px;
+  background-color: white;
+  border-radius: 30%;
+}
