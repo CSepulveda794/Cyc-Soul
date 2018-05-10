@@ -121,3 +121,43 @@ figure {
 /* img {
     padding: 15px;
 } */
+
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+/* @media only screen and (max-width: 480px) {
+    .buttonImg{
+        display: none;
+    } 
+} */
+
+
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+    .buttonImg{
+        display: none;
+    }
+
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+@media only screen and (min-width: 768px){
+    .buttonImg{
+        display: block;
+    }
+  }
