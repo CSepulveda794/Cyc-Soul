@@ -1,8 +1,17 @@
-.infomation h1{
+.infomation h1 {
     color: white;
     font-size: 3em;
 }
 
-.infomation p{
+.infomation p {
     color: white;
+}
+
+#container {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+p {
+    padding-left: 5%;
 }
