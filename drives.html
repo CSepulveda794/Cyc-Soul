@@ -64,44 +64,71 @@
     <section class="infomation">
         <h1>Our Current Drives</h1>
         <p id="location1">Location 1: 151 Main St, Superior, AZ 85173 </p>
-        <p>Location 1: 151 Main St, Superior, AZ 85173 </p>
+        <p>Location 2: 635 E Baseline Rd, Phoenix, AZ 85042 </p>
+        <p>Location 3: 1751 W Indian School Rd, Phoenix, AZ 85015, USA </p>
     </section>
 
     <!-- This is the start of the google maps -->
     <div id="map"></div>
     <script>
-        var lat = 33.293557;
-        var lon = -111.096896;
-        // if (document.getElementById("location").onclick) {
-        //     alert(lat)
-        // } else {
-
-        // }
-
         function initMap() {
-            var uluru = {
-                lat: lat,
-                lng: lon
+
+            var loc1 = {
+                info: '<strong></strong><br>\
+					151 Main St, Superior, AZ 85173<br>\
+					<a href="https://www.google.com/maps/dir//151+Main+St,+Superior,+AZ+85173/@33.2935614,-111.0990849,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872a2a09084d29f9:0x7ab33456cee2fe70!2m2!1d-111.0968962!2d33.2935569">Get Directions</a>',
+                lat: 33.5140628,
+                long: -112.27161559999999,
             };
+
+            var loc2 = {
+                info: '<strong>Lawerence Park</strong><br>\
+					 635 E Baseline Rd, Phoenix, AZ 85042<br>\
+					<a href="https://www.google.com/maps/dir//635+E+Baseline+Rd,+Phoenix,+AZ+85042/@33.3767966,-112.1028701,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872b1014665b085f:0x6166b19a19aa1529!2m2!1d-112.0678506!2d33.3767298">Get Directions</a>',
+                lat: 33.536349,
+                long: -112.191942
+            };
+
+            var loc3 = {
+                info: '<strong>Phoinex Christan School</strong><br>\r\
+					1751 W Indian School Rd, Phoenix, AZ 85015, USA <br>\
+					<a href="https://www.google.com/maps/dir//1751+W+Indian+School+Rd,+Phoenix,+AZ+85015/@33.4946491,-112.0993005,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872b12e29f6e6d2d:0x8178f3366b1cc080!2m2!1d-112.0971118!2d33.4946446">Get Directions</a>',
+                lat: 33.494645,
+                long: -112.097116
+            };
+
+            var locations = [
+                [loc1.info, loc1.lat, loc1.long, 0],
+                [loc2.info, loc2.lat, loc2.long, 1],
+                [loc3.info, loc3.lat, loc3.long, 2],
+            ];
+
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
+                zoom: 11,
+                center: new google.maps.LatLng(33.5098055, -112.18503989999999),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
             });
 
-            // $("p").click(function () {
-            //     alert("The paragraph was clicked.");
-            // });
+            var infowindow = new google.maps.InfoWindow({});
 
-//New JQery
-            // $('#lat').on('change', function (e) {
-            //     lat = e.target.value;
-            // });
+            var marker, i;
+
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                });
+
+                google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                    return function() {
+                        infowindow.setContent(locations[i][0]);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+            }
         }
     </script>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhTMhd2NOvzsVkF--6iN6J0N3G5FgSv2s&callback=initMap">
     </script>
     <script src="js/drives.js"></script>
