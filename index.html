@@ -17,10 +17,10 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="nav_1">
             <ul>
                 <table id="center">
-                        <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+                    <img src="logo.png" alt="logo" style="width: 70px" id="logo">
                     <tr>
                         <th>
                             <li id="navLink">
@@ -57,6 +57,50 @@
                 </table>
             </ul>
         </nav>
+
+        <!-- Nav 2 -->
+        <nav id="nav_2">
+            <ul>
+                <table id="center">
+                    <img src="logo.png" alt="logo" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="locations.html">Locations</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="name.png" alt="Cyc-soul" id="name">
+                </table>
+            </ul>
+        </nav>
     </header>
     <section id="container">
         <section>
@@ -82,33 +126,69 @@
                 </a>
             </div>
         </section>
-        <section id="fig">
-            <h1>Did You Know 1 out of Every 5 American children are in need of shoes?</h1>
-            <h2>How Can You Help?</h2>
-            <figure class="buttons">
-                <a href="donations.html">
-                    <img src="photos/donate.png" alt="Donate Button" class="buttonImg">
-                </a>
-                <figcaption>Donate</figcaption>
-            </figure>
-            <figure class="buttons">
-                <a href="products.html">
-                    <img src="photos/product.png" alt="Product Button" class="buttonImg">
-                </a>
-                <figcaption>Buy Products</figcaption>
-            </figure>
-            <figure class="buttons">
-                <a href="donations.html">
-                    <img src="photos/drive.png" alt="Drive Button" class="buttonImg">
-                </a>
-                <figcaption>Local Drives</figcaption>
-            </figure>
-            <!-- Ignore -->
-            <!-- <div id="ways">
-            <p>donate</p>
-            <p>Buy Products</p>
-            <p>Start A Local Drive</p>
-        </div> -->
+
+        <div id="desktop">
+            <section id="fig">
+                <h1>Did You Know 1 out of Every 5 American children are in need of shoes?</h1>
+                <h2>How Can You Help?</h2>
+                <figure class="buttons">
+                    <a href="donations.html">
+                        <img src="photos/donate.png" alt="Donate Button" class="buttonImg">
+                    </a>
+                    <figcaption>Donate</figcaption>
+                </figure>
+                <figure class="buttons">
+                    <a href="products.html">
+                        <img src="photos/product.png" alt="Product Button" class="buttonImg">
+                    </a>
+                    <figcaption>Buy Products</figcaption>
+                </figure>
+                <figure class="buttons">
+                    <a href="donations.html">
+                        <img src="photos/drive.png" alt="Drive Button" class="buttonImg">
+                    </a>
+                    <figcaption>Local Drives</figcaption>
+                </figure>
+        </div>
+
+        <!-- Start of new media rules -->
+
+        <table id="phone">
+            <section id="fig">
+                <h1 id="phone">Did You Know 1 out of Every 5 American children are in need of shoes?</h1>
+                <h2 id="phone">How Can You Help?</h2>
+                <tr>
+                    <th>
+                        <figure class="buttons">
+                            <a href="donations.html">
+                                <img src="photos/donate.png" alt="Donate Button" class="buttonImg">
+                            </a>
+                            <figcaption>Donate</figcaption>
+                        </figure>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <figure class="buttons">
+                            <a href="products.html">
+                                <img src="photos/product.png" alt="Product Button" class="buttonImg">
+                            </a>
+                            <figcaption>Buy Products</figcaption>
+                        </figure>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <figure class="buttons">
+                            <a href="donations.html">
+                                <img src="photos/drive.png" alt="Drive Button" class="buttonImg">
+                            </a>
+                            <figcaption>Local Drives</figcaption>
+                        </figure>
+                    </th>
+                </tr>
+            </section>
+        </table>
         </section>
     </section>
     <script src="js/jquery.slim.min.js"></script>

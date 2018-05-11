@@ -104,12 +104,6 @@ h2 {
     padding-left: 20%;
 }
 
-.house {
-    display: inline;
-    padding: 100px;
-    transform: translateX(-40px);
-}
-
 #ways {
     padding-top: 20px;
 }
@@ -142,11 +136,23 @@ figure {
 */
 
 
-/* @media only screen and (max-width: 480px) {
-    .buttonImg{
+@media only screen and (max-width: 480px) {
+    #desktop {
         display: none;
+    }
+    #phone{
+        display: block;
+    }
+    #nav_1{
+        display: none;
+    }
+    #nav_2{
+        display: none;
+    }
+    .buttonImg{
+        display: inline;
     } 
-} */
+}
 
 
 /* ============================================
@@ -155,11 +161,42 @@ figure {
 */
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-    .buttonImg{
+    #desktop {
+        display: block;
+    }
+
+    #phone {
         display: none;
     }
+
+    #nav_1{
+        display: none;
+    }
+
     nav ul li a {
-        font-size: 10px;
+        font-size: 1em;
+    }
+
+    .buttonImg {
+        display: block;
+        margin: 0 auto;
+        padding: none;
+        border: none;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #center {
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+
+    #logo{
+        width: 15%;
+    }
+
+    #name{
+        width: 15%;
     }
 }
 
@@ -170,11 +207,23 @@ figure {
 */
 
 @media only screen and (min-width: 768px) {
+    #desktop{
+        display: block;
+    }
+
+    #phone {
+        display: none;
+    }
+    #nav_2{
+        display: none;
+    }
+
     .buttonImg {
-        display: inline;
+        display: block;
     }
     
     #center{
         margin: 0 auto;
+        white-space: nowrap;
     }
 }
