@@ -2,90 +2,89 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="icon" href="logo.png">
-    <link rel="stylesheet" href="donate.css">
-    <link rel="stylesheet" href="footer.css">
-    <title>Ways to Give</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="donate.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>Ways to Give</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <img src="logo.png" alt="logo" style="width: 70px" id="logo">
-                <li id="navLink">
-                    <a href="index.html">Home Page</a>
-                </li>
-                <li id="navLink">
-                    <a href="aboutUs.html">About Us</a>
-                </li>
-                <li id="navLink">
-                    <a href="locations.html">Locations</a>
-                </li>
-                <li id="navLink">
-                    <a href="products.html">Products</a>
-                </li>
-                <li id="navLink">
-                    <a href="donations.html">Ways To Give</a>
-                </li>
-                <li id="navLink">
-                    <a href="drives.html">Shoe Drives</a>
-                </li>
-                <img src="name.png" alt="Cyc-soul" width="70px" id="name">
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+        <li id="navLink">
+          <a href="index.html">Home Page</a>
+        </li>
+        <li id="navLink">
+          <a href="aboutUs.html">About Us</a>
+        </li>
+        <li id="navLink">
+          <a href="locations.html">Locations</a>
+        </li>
+        <li id="navLink">
+          <a href="products.html">Products</a>
+        </li>
+        <li id="navLink">
+          <a href="donations.html">Ways To Give</a>
+        </li>
+        <li id="navLink">
+          <a href="drives.html">Shoe Drives</a>
+        </li>
+        <img src="name.png" alt="Cyc-soul" width="70px" id="name">
+      </ul>
+    </nav>
+  </header>
 
-    <!-- create form here for voulunteers and maybe an actual contact with an emailor phone -->
-    <form id="voulunteer">
-        <h1>Volunteer</h1>
-        First name:<br>
-        <input type="text" name="firstname" placeholder="First"><br> Last name:<br>
-        <input type="text" name="lastname" placeholder="Last">
-        <br> Gender:
-        <br>
-        <select name="gender">
+  <!-- create form here for voulunteers and maybe an actual contact with an emailor phone -->
+  <form id="voulunteer">
+    <h1>Volunteer</h1> First name:<br>
+    <input type="text" name="firstname" placeholder="First"><br> Last name:<br>
+    <input type="text" name="lastname" placeholder="Last">
+    <br> Gender:
+    <br>
+    <select name="gender">
             <option value="select">(Select One)</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
-        <br> City you Live in:
-        <br>
-        <input type="text">
-        <div class="group" id="donateNow">
-            <button type="submit" class="_1">Sign up Now</button>
-        </div>
-    </form>
+    <br> City you Live in:
+    <br>
+    <input type="text">
+    <div class="group" id="donateNow">
+      <button type="submit" class="_1">Sign up Now</button>
+    </div>
+  </form>
 
-    <!-- ======================================= -->
-    <div class="donate">
-        <h1>Donate</h1>
-        <div class="payment">
-            <form>
-                <div>
-                    <label for="donate">Amount To Donate</label>
-                    <input type="number" min="0" value="10">
-                </div>
-                <br>
-                <div class="group owner">
-                    <label for="owner">Name on Card</label>
-                    <input type="text" class="form-control" id="owner" placeholder="Company">
-                </div>
-                <div class="group CVV">
-                    <label for="cvv">CVV</label>
-                    <input type="text" class="form-control" id="cvv" placeholder="XXX">
-                    <!-- three numbers -->
-                </div>
-                <div class="group" id="card-numberField">
-                    <label for="cardNumber">Card Number</label>
-                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX">
-                    <!-- nine numbers -->
-                </div>
-                <div class="group" id="expirationDate">
-                    <label>Expiration Date</label>
-                    <select>
+  <!-- ======================================= -->
+  <div class="donate">
+    <h1>Donate</h1>
+    <div class="payment">
+      <form>
+        <div>
+          <label for="donate">Amount To Donate</label>
+          <input type="number" min="0" value="10">
+        </div>
+        <br>
+        <div class="group owner">
+          <label for="owner">Name on Card</label>
+          <input type="text" class="form-control" id="owner" placeholder="Company">
+        </div>
+        <div class="group CVV">
+          <label for="cvv">CVV</label>
+          <input type="text" class="form-control" id="cvv" placeholder="XXX">
+          <!-- three numbers -->
+        </div>
+        <div class="group" id="card-numberField">
+          <label for="cardNumber">Card Number</label>
+          <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX">
+          <!-- nine numbers -->
+        </div>
+        <div class="group" id="expirationDate">
+          <label>Expiration Date</label>
+          <select>
                         <option value="01">January</option>
                         <option value="02">February </option>
                         <option value="03">March</option>
@@ -99,7 +98,7 @@
                         <option value="11">November</option>
                         <option value="12">December</option>
                     </select>
-                    <select>
+          <select>
                         <option value="19"> 2019</option>
                         <option value="20"> 2020</option>
                         <option value="21"> 2021</option>
@@ -107,43 +106,41 @@
                         <option value="23"> 2023</option>
                         <option value="24"> 2024</option>
                     </select>
-                </div>
-                <!-- Images -->
-                <!-- <div class="form-group" id="credit_cards">
+        </div>
+        <!-- Images -->
+        <!-- <div class="form-group" id="credit_cards">
             <img src="assets/images/visa.jpg" id="visa">
             <img src="assets/images/mastercard.jpg" id="mastercard">
             <img src="assets/images/amex.jpg" id="amex">
           </div> -->
-                <div class="group" id="donateNow">
-                    <button type="submit" class="_1">Donate Now</button>
-                </div>
-            </form>
-        </div>
-    </div>
+        <div class="group" id="donateNow">
+          <button type="submit" class="_1">Donate Now</button>
 
-<form id="boxes">
-    <h1>Donation Boxes</h1>
-    Name: <br>
-    <input type="text" name="name" placeholder="Last name, First name"> <br>
-    State: <br>
-    <input type="text" name="state" placeholder="state"> <br>
-    City: <br>
-    <input type="text" name="city" placeholder="city"> <br>
-    Zip: <br>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <form id="boxes">
+    <h1>Donation Boxes</h1> Name: <br>
+    <input type="text" name="name" placeholder="Last name, First name"> <br> State: <br>
+    <input type="text" name="state" placeholder="state"> <br> City: <br>
+    <input type="text" name="city" placeholder="city"> <br> Zip: <br>
     <input type="text" name="zip" placeholder="zip-code"> <br>
     <div class="group" id="donateNow">
-            <button type="submit" class="_1">Search Now</button>
-        </div>
-</form>
+      <button type="submit" class="_1">Search Now</button>
+    </div>
+  </form>
 
-<!-- State, location, zip-code, name. -->
+  <!-- State, location, zip-code, name. -->
 
 
 
-    <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul
-        <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a>
-        <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a>
-    </footer>
+  <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul
+    <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a>
+    <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a>
+  </footer>
 </body>
 
 </html>
