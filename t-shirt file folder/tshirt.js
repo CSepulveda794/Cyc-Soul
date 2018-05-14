@@ -13,14 +13,12 @@ document.getElementById("button3").onclick = function() {
     image.src = "../products/sports-grey-tee.png";
 }
 
-document.getElementById("qty").onclick = function() {
+document.getElementById("qty").onclick = function () {
     a = document.getElementById('qty').value;
     b = document.getElementById('price').value;
     c = a * b;
     d = c + 4.99;
 
     document.getElementById('TOTAL').value = Math.max(Math.round(d * 100) / 100);
-
-
 
 }

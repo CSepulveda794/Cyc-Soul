@@ -6,20 +6,30 @@
 */
 
 // Retrieve
-window.addEventListener("load", function() {
-    // retrive the field/value pairs from the url
-    var formData = location.search.slice(1);
-    formData = formData.replace(/\+/g, " ");
-    formData = decodeURIComponent(formData);
+// window.addEventListener("load", function() {
+//     var urlString = "file:///Users/michaelwood/Documents/Cyc-Soul/creditInfo/creditInfo.html?adress=&price=16.50&TOTAL=54.49";
+//     urlParams = parseURLParams(urlString);
 
-    d = document.getElementById('TOTAL');
-    B = document.forms.order.elements.d.value;
+//     // retrive the field/value pairs from the url
+//     // var formData = location.search.slice(1);
+//     // formData = formData.replace(/\+/g, " ");
+//     // formData = decodeURIComponent(formData);
 
-
-    document.getElementById("TOTAL") = d;
-    window.alert(d);
-    document.getElementById('Cost').value = Math.max(Math.round(d * 100) / 100);
+//     // d = document.getElementById('TOTAL');
+//     // B = document.forms.order.elements.d.value;
 
 
-    alert(B);
-});
+//     // document.getElementById("TOTAL") = d;
+//     // window.alert(d);
+//     // document.getElementById('Cost').value = Math.max(Math.round(d * 100) / 100);
+
+
+//     // alert(B);
+// });
+// window.addEventListener("load", parseURLParams());
+
+// function parseURLParams(url) {
+//     document.getElementById("Cost").innerHTML = localStorage.getItem("test");
+//     console.log(c);
+// }
+    

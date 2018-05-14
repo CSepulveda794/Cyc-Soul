@@ -91,6 +91,7 @@ h2 {
 
 #Spin {
     background: grey;
+    max-height: 80%;
 }
 
 #fig {
@@ -99,14 +100,14 @@ h2 {
 }
 
 #carousel {
-    height: 600px;
+    max-height: 600px;
     width: 80%;
     background: grey;
 }
 
 .buttonImg {
     height: 200px;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-left: 20%;
 }
 
@@ -240,6 +241,14 @@ figure {
         padding-left: 100%;
         margin-left: 100%;
     }
+    figure{
+        padding-left: 70%;
+        padding-right: 70%;
+        background-attachment: fixed;
+        background-size: 150px;
+        width: 100%;
+        align-content: center;
+    }
 }
 
 /* ============================================
@@ -268,9 +277,13 @@ figure {
         display: block;
         margin: 0 auto;
         padding: none;
+        padding-left: 5%;
         border: none;
         align-content: center;
         justify-content: center;
+    }
+    figcaption{
+        background-attachment: fixed;
     }
     #center {
         margin: 0 auto;
@@ -282,6 +295,7 @@ figure {
     #name {
         width: 15%;
     }
+
 }
 
 /* ============================================
