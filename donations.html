@@ -133,7 +133,7 @@
         </select>
     <br> City you Live in:
     <br>
-    <input type="text">
+    <input type="text" required oninvalid="this.setCustomValidity('Please enter the city you currently reside in')" oninput="setCustomValidity('')">
     <div class="group" id="donateNow">
       <button type="submit" class="_1">Sign up Now</button>
     </div>
@@ -220,7 +220,7 @@
         <br> Zip:
         <br>
         <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please enter your zip code')"
-            oninput="setCustomValidity('')">
+            oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br>
         <div class="group" id="donateNow">
             <button type="submit" class="_1">Search Now</button>
