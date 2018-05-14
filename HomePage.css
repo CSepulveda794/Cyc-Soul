@@ -221,7 +221,7 @@ figure {
    =========================
 */
 
-@media only screen and (max-width: 557px) {
+@media only screen and (max-width: 560px) {
     #desktop {
         display: none;
     }
@@ -247,7 +247,7 @@ figure {
    ============================================
 */
 
-@media only screen and (min-width: 481px) and (max-width: 850px) {
+@media only screen and (min-width: 560px) and (max-width: 850px) {
     #desktop {
         display: block;
     }
