@@ -49,16 +49,19 @@
                 <br>
                 <div class="group owner">
                     <label for="owner">Name on Card</label>
-                    <input type="text" class="form-control" id="owner" placeholder="Company">
+                    <input type="text" class="form-control" id="owner" placeholder="Company" required oninvalid="this.setCustomValidity('Please enter the name on the card')"
+                    oninput="setCustomValidity('')">
                 </div>
                 <div class="group CVV">
                     <label for="cvv">CVV</label>
-                    <input type="text" class="form-control" id="cvv" placeholder="XXX">
+                    <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')"
+                    oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
                     <!-- three numbers -->
                 </div>
                 <div class="group" id="card-numberField">
                     <label for="cardNumber">Card Number</label>
-                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX">
+                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')"
+                    oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
                     <!-- nine numbers -->
                 </div>
                 <div class="group" id="expirationDate">
