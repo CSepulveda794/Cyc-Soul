@@ -25,6 +25,7 @@ a img {
 #t-shirt,
 #hat {
     width: 200px;
+    padding-bottom: 5%;
 }
 
 
@@ -48,3 +49,43 @@ h2 {
     color: white;
     text-align: center;
 }
+
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 557px) {
+    .fig {
+        display: inline-block;
+        background: black;
+    }
+    div {
+        background: black;
+    }
+    figure {
+        background: black;
+    }
+    img {
+        background: black;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+}
+
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 560px) and (max-width: 850px) {}
+
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 851px) {}
