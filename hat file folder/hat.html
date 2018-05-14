@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../nav.css">
-    <link rel="stylesheet" href="t-shirt.css">
     <link rel="stylesheet" href="hat.css">
     <link rel="stylesheet" href="../footer.css">
     <title>hat</title>
@@ -117,34 +116,33 @@
         <h1>6277 Flexfit Cotton Blend</h1>
         <img src="../products/hat1.png" alt="This is not a trucker hat" id="hat">
     </section>
-    <section id="form">
-        <form>
+  <section id="form">
+        <form method="get" action="../creditInfo/creditInfo.html">
             <h2>6277 Flexfit Cotton Blend Embroded</h2>
-            <h3>$16.50</h3>
-            Size
-            <br>
-            <br>
-            <input type="radio" name="size" value="small"> Small<br>
-            <input type="radio" name="size" value="medium"> Medium <br>
-            <input type="radio" name="size" value="medium"> Large <br>
+            <h3>$14.50</h3>
             <br>Shipping Adress
             <br>
             <input type="text" name="adress" placeholder="123 North Jefferson ST. Wickenburg AZ">
             <br>
-            <br>Qty
+            <br><label>Qty</label>
             <br>
-            <input type="number" min="1" value="1">
+            <input type="number" min="1" value="1" id="qty">
+            <br>
+            <br> <label>Shipping and Handling Fee $4.99</label>
             <br>
             <br>
+            <input type="text" name="price" id="price" value="14.50">
+            <br>
+            <br><label>Total Cost</label>
+            <br>
+            <input type="text" name="TOTAL" id="TOTAL" />
             <br>
             <br>
-            <div class="group" id="donateNow">
-                <button type="submit" class="_1">Check Out Here</button>
-            </div>
+            <input type="submit" value="check out">
         </form>
     </section>
 
-    <script src="mug.js"></script>
+    <script src="hat.js"></script>
     <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a> <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a></footer>
 <script>
     function openNav() {

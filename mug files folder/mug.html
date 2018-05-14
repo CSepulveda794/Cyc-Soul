@@ -116,28 +116,33 @@
     </section>
 
     <section id="form">
-        <form>
-            <h2>14 oz Travel Mug Black and Silver</h2>
+        <form method="get" action="../creditInfo/creditInfo.html">
+            <h2>14 oz. Travel Mug Black/Silver</h2>
             <h3>$12.50</h3>
             <br>Shipping Adress
             <br>
             <input type="text" name="adress" placeholder="123 North Jefferson ST. Wickenburg AZ">
             <br>
-            <br>Qty
+            <br><label>Qty</label>
             <br>
-            <input type="number" min="1" value="1">
+            <input type="number" min="1" value="1" id="qty">
+            <br>
+            <br> <label>Shipping and Handling Fee $4.99</label>
             <br>
             <br>
+            <input type="text" name="price" id="price" value="14.50">
             <br>
-            <div class="group" id="donateNow">
-                <button type="submit" class="_1">Check Out Here</button>
-            </div>
+            <br><label>Total Cost</label>
+            <br>
+            <input type="text" name="TOTAL" id="TOTAL" />
+            <br>
+            <br>
+            <input type="submit" value="check out">
         </form>
     </section>
 
 
     <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a> <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a></footer>
-    <script src="mug.js"></script>
     <script src="mug.js"></script>
 <script>
     function openNav() {
