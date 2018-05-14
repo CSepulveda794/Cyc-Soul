@@ -40,6 +40,4 @@ function Cost() {
     text = localStorage.getItem("testJSON");
     obj = JSON.parse(text);
     document.getElementById("Cost").value = obj.total;
-    alert("test")
-
 }
