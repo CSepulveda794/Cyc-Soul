@@ -22,24 +22,24 @@ header{
 
 div#about{
     /*width: 300px;*/
-    border: 25px solid rgb(101, 157, 38);
+    border: 25px solid #86BBD8;
     padding: 25px;
     background-color: white;
-    border-radius: 30%;
-}
-
-div#mission{
-  /*width: 300px;*/
-  border: 25px solid rgb(101, 157, 38);
-  padding: 25px;
-  background-color: white;
-  border-radius: 30%;
+    border-radius: 60%;
 }
 
 div#vision{
   /*width: 300px;*/
-  border: 25px solid rgb(101, 157, 38);
+  border: 25px solid #758E4F;
   padding: 25px;
   background-color: white;
-  border-radius: 30%;
+  border-radius: 60%;
+}
+
+div#mission{
+  /*width: 300px;*/
+  border: 25px solid #404E5C;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
 }
