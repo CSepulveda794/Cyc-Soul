@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    <header>
 <header>
     <nav id="nav_1">
         <ul>
@@ -102,13 +101,19 @@
         </ul>
     </nav>
     <!-- Start of test 1-->
-    <div class="nav" id="nav">
-        <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
-        <a href="">Test</a>
-        <a href="">Test</a>
-        <a href="">Test</a>
-    </div>
-    <span id="open" class="open" onclick="openNav()">&#9776</span>
+    <section id="nav_3">
+        <div class="nav" id="nav">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home Page</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="locations.html">Locations</a>
+            <a href="products.html">Products</a>
+            <a href="donations.html">Ways To Give</a>
+            <a href="drives.html">Shoe Drives</a>
+        </div>
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
+    </section>
+
     <!-- End of test 1-->
 </header>
     <section>
@@ -137,6 +142,17 @@
 
     <footer style="color: white; padding-left: 5%; padding-top: 0.5%"> Cyc-Soul <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a> <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a></footer>
 </body>
+<script>
+    function openNav() {
+        document.getElementById("open").style.display = "none";
+        document.getElementById("nav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("open").style.display = "block"
+    }
+</script>
 </body>
 
 </html>

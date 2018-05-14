@@ -178,7 +178,6 @@ figure {
 /* Start of test 1 */
 .open {
     color: white;
-    border: 1px solid red;
     font-size: 30px;
     float: left;
     margin: 1em 0 0 1em;
@@ -259,7 +258,7 @@ figure {
    ============================================
 */
 
-@media only screen and (min-width: 481px) and (max-width: 850px) {
+@media only screen and (min-width: 560px) and (max-width: 850px) {
     #desktop {
         display: block;
     }
