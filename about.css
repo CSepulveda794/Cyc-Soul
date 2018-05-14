@@ -38,6 +38,13 @@ div#vision{
 
 div#mission{
   /*width: 300px;*/
+  border: 25px solid #4BC6B9;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
+}
+
+div#contact{
   border: 25px solid #404E5C;
   padding: 25px;
   background-color: white;
