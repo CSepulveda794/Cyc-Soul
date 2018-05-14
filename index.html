@@ -101,6 +101,15 @@
                 </table>
             </ul>
         </nav>
+        <!-- Start of test 1-->
+        <div class="nav" id="nav">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="">Test</a>
+            <a href="">Test</a>
+            <a href="">Test</a>
+        </div>
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
+        <!-- End of test 1-->
     </header>
     <h1>CYC - SOUL</h1>
     <section id="container">
@@ -199,6 +208,21 @@
         <a style="padding-left: 35%; color: white;" href="mailto:cyc-soul@gmail.com">cyc-soul@gmail.com</a>
         <a style="padding-left: 35%; color: white;" href="tel:+(623)123-1234">(623)123-1234</a>
     </footer>
+
+    <!-- Start of test 1 -->
+    <script>
+        function openNav() {
+            document.getElementById("open").style.display = "none";
+            document.getElementById("nav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("open").style.display = "block"
+        }
+    </script>
+
+    Start of test 1
 </body>
 
 <!-- Make email, phone number, and company name -->
