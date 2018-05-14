@@ -221,7 +221,10 @@ figure {
    =========================
 */
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 557px) {
+    #spin{
+        height: 40%;
+    }
     #desktop {
         display: none;
     }
