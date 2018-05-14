@@ -149,18 +149,16 @@
           <input type="number" min="0" value="10">
         </div>
         <br>
-        <input type="text" required oninvalid="this.setCustomValidity('Please enter the city you currently reside in')" oninput="setCustomValidity('')">
-        <div class="group" id="donateNow">
-            <button type="submit" class="_1">Sign up Now</button>
-        </div>
         <div class="group CVV">
           <label for="cvv">CVV</label>
-          <input type="text" class="form-control" id="cvv" placeholder="XXX">
+          <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')"
+          oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
           <!-- three numbers -->
         </div>
         <div class="group" id="card-numberField">
           <label for="cardNumber">Card Number</label>
-          <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX">
+          <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')"
+          oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
           <!-- nine numbers -->
         </div>
         <div class="group" id="expirationDate">

@@ -86,3 +86,34 @@
 //Start on finding local schools/areas where we could station our drives
 
 //Start on unifying our website
+
+// ============================================================
+/*Day 9*/
+
+//Started fixing up some bugs with products page
+
+//Add images to the nav
+
+//Added about us information
+
+//Started adding forms to shoe drives
+// ============================================================
+/*Day 10*/
+
+//Finished adding in the about us information
+
+//Added in some css for about.Us
+
+//Added in the real location of our warehouse
+
+//Added in styles for shoe drives
+
+// ============================================================
+/*Day 11*/
+//Added a footer
+
+//Finished up the about us page
+
+//Find out how to store stuff on local
+
+//
