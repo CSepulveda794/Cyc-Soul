@@ -1,0 +1,25 @@
+<body>
+        <!-- Start of test -->
+        <div class="nav" id="nav">
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+            <a href="">Test</a>
+            <a href="">Test</a>
+            <a href="">Test</a>
+        </div>
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
+        <!-- End of test -->
+
+
+        <script>
+            function openNav() {
+                document.getElementById("open").style.display = "none";
+                document.getElementById("nav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("nav").style.width = "0";
+                document.getElementById("open").style.display = "block"
+            }
+        </script>
+</body>
+<link rel="stylesheet" href="nav.css">
