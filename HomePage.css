@@ -145,7 +145,7 @@ figure {
 */
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 557px) {
     #desktop {
         display: none;
     }
@@ -159,7 +159,10 @@ figure {
         display: none;
     }
     .buttonImg{
-        display: inline;
+        display: block;
+        margin: 0 auto;
+        padding-left: 100%;
+        margin-left: 100%;
     } 
 }
 
@@ -169,7 +172,7 @@ figure {
    ============================================
 */
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 850px) {
     #desktop {
         display: block;
     }
@@ -215,7 +218,7 @@ figure {
    ============================================
 */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 851px) {
     #desktop{
         display: block;
     }
