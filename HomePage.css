@@ -5,6 +5,7 @@
 
 */
 
+
 /* 
 html {
     background: radial-gradient(green, black);
@@ -45,6 +46,7 @@ li a {
     text-decoration: none;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
@@ -78,6 +80,7 @@ h2 {
     text-align: center;
     padding-bottom: 10px;
 }
+
 
 /* body {
     padding-left: 5%;
@@ -170,12 +173,14 @@ figure {
     background-color: #f7941d;
 }
 
+
 /* img {
     padding: 15px;
 } */
 
 
 /* Start of test 1 */
+
 .open {
     color: white;
     font-size: 30px;
@@ -214,7 +219,10 @@ figure {
 .nav a:not(:first-child):hover {
     background-color: #f7941d;
 }
+
+
 /* Start of test 1 */
+
 
 /* =========================
    Mobile Styles: 0 to 480px
@@ -222,7 +230,7 @@ figure {
 */
 
 @media only screen and (max-width: 557px) {
-    #spin{
+    #spin {
         height: 40%;
     }
     #desktop {
@@ -243,7 +251,7 @@ figure {
         padding-left: 100%;
         margin-left: 100%;
     }
-    figure{
+    figure {
         padding-left: 70%;
         padding-right: 70%;
         background-attachment: fixed;
@@ -252,6 +260,7 @@ figure {
         align-content: center;
     }
 }
+
 
 /* ============================================
    Tablet Styles: 481px and greater
@@ -268,7 +277,6 @@ figure {
     #nav_1 {
         display: none;
     }
-    
     #nav_2 {
         display: block;
     }
@@ -284,7 +292,7 @@ figure {
         align-content: center;
         justify-content: center;
     }
-    figcaption{
+    figcaption {
         background-attachment: fixed;
     }
     #center {
@@ -297,8 +305,8 @@ figure {
     #name {
         width: 15%;
     }
-
 }
+
 
 /* ============================================
    Desktop Styles: 760px and greater
@@ -328,15 +336,14 @@ figure {
         margin: 0 auto;
         white-space: nowrap;
     }
-
     /* Start of test 1 */
-    .open{
+    .open {
         display: none;
     }
-    .nav{
+    .nav {
         display: none;
     }
-    .nav a{
+    .nav a {
         display: none;
     }
 }
