@@ -117,19 +117,19 @@
         <h1>Start a Shoe Drive</h1>
         Name:
         <br>
-        <input type="text" name="name" placeholder="Last name, First name">
+        <input type="text" name="name" placeholder="Last name, First name" required oninvalid="this.setCustomValidity('Please enter your first and last name')" oninput="setCustomValidity('')">
         <br> State:
         <br>
-        <input type="text" name="state" placeholder="state">
+        <input type="text" name="state" placeholder="state" required oninvalid="this.setCustomValidity('Please enter the state that you currently reside in')" oninput="setCustomValidity('')">
         <br> City:
         <br>
-        <input type="text" name="city" placeholder="city">
+        <input type="text" name="city" placeholder="city" required oninvalid="this.setCustomValidity('Please enter the city that you currently reside in')" oninput="setCustomValidity('')">
         <br> Zip:
         <br>
-        <input type="text" name="zip" placeholder="zip-code">
+        <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please a valid zip code')" oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br> Drive Location
         <br>
-        <input type="text" name="description" placeholder="School, Libary, etc...">
+        <input type="text" name="description" placeholder="School, Libary, etc..." required oninvalid="this.setCustomValidity('Please enter a valid Location')" oninput="setCustomValidity('')">
         <br>
         <div class="group" id="donateNow">
             <button type="submit" class="_1">Search Now</button>

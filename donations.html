@@ -220,7 +220,7 @@
         <br> Zip:
         <br>
         <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please enter your zip code')"
-            oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
+            oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br>
         <div class="group" id="donateNow">
             <button type="submit" class="_1">Search Now</button>
