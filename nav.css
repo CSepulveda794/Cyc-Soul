@@ -122,6 +122,104 @@ li a:hover {
     }
 }
 
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 557px) {
+    #desktop {
+        display: none;
+    }
+    #phone {
+        display: block;
+    }
+    #nav_1 {
+        display: none;
+    }
+    #nav_2 {
+        display: none;
+    }
+    .buttonImg {
+        display: block;
+        margin: 0 auto;
+        padding-left: 100%;
+        margin-left: 100%;
+    }
+}
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) and (max-width: 850px) {
+    #desktop {
+        display: block;
+    }
+    #phone {
+        display: none;
+    }
+    #nav_1 {
+        display: none;
+    }
+    
+    #nav_2 {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 1em;
+    }
+    .buttonImg {
+        display: block;
+        margin: 0 auto;
+        padding: none;
+        border: none;
+        align-content: center;
+        justify-content: center;
+    }
+    #center {
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+    #logo {
+        width: 15%;
+    }
+    #name {
+        width: 15%;
+    }
+}
+
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 851px) {
+    #desktop {
+        display: block;
+    }
+    #phone {
+        display: none;
+    }
+    #nav_1 {
+        display: block;
+    }
+    #nav_2 {
+        display: none;
+    }
+    #nav_3 {
+        display: none;
+    }
+    .buttonImg {
+        display: block;
+    }
+    #center {
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+}
 /* IDK what im doing */
 
 .open{
@@ -132,6 +230,7 @@ li a:hover {
     display: block;
     cursor: pointer;
 }
+
 
 .nav{
     width: 0;
