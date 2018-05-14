@@ -178,7 +178,6 @@ figure {
 /* Start of test 1 */
 .open {
     color: white;
-    border: 1px solid red;
     font-size: 30px;
     float: left;
     margin: 1em 0 0 1em;
