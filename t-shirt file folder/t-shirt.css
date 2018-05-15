@@ -9,6 +9,10 @@ html {
     margin: 0;
 }
 
+body{
+    background: black;
+}
+
 #button1 {
     background: black;
     height: 5%;
@@ -31,8 +35,6 @@ html {
 .buttons {
     display: inline;
 }
-
-section {}
 
 h1 {
     color: white;

@@ -86,3 +86,61 @@
 //Start on finding local schools/areas where we could station our drives
 
 //Start on unifying our website
+
+// ============================================================
+/*Day 9*/
+
+//Started fixing up some bugs with products page
+
+//Add images to the nav
+
+//Added about us information
+
+//Started adding forms to shoe drives
+// ============================================================
+/*Day 10*/
+
+//Finished adding in the about us information
+
+//Added in some css for about.Us
+
+//Added in the real location of our warehouse
+
+//Added in styles for shoe drives
+
+// ============================================================
+/*Day 11*/
+//Added a footer
+
+//Finished up the about us page
+
+//Find out how to store stuff on local
+
+//Started on making styles for tablet
+
+// ============================================================
+/*Day 12*/
+//Continuation of the local storeage
+
+//Started started working validations
+
+//Started making the nav mobile
+
+// ============================================================
+/*Day 13*/
+//Continue working on the local storeage
+
+//Start working on the footer styles
+
+//Started fixing the bootstrap on our index
+
+//Started adding stuff to eco plan
+// ============================================================
+/*Day 14*/
+//Started adding more products for our page
+
+//Started looking into our sourses
+
+//Started fixing the bug about the inconsistent nav
+
+//Added more locations on our google maps for drives

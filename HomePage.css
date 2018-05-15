@@ -206,7 +206,7 @@ figure {
     color: white;
     font-size: 22px;
     display: block;
-    text-decoration: none;
+    /* text-decoration: none; */
     padding: 1em 0;
     transition: 0.3s;
 }
