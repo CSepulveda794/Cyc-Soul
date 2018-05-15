@@ -83,3 +83,23 @@
 
 
 /*==================================End of Calculations===================================*/
+
+
+/*=====================================Sales===============================================*/
+// $20.50 - per shirt buy price
+// $26.50 - per shirt re-sale
+
+// $18.45 - per hat buy price
+// $24.50 - per hat re-sale
+
+// $5.50 - per T-mug buy price
+// $12.50 - per T-mug re-sale
+
+// $5.75 - per El Grande Mug buy price
+// $9.00 - per El Grande Mug re-sale
+
+// $19.40 - per Hoodie buy price
+// $28.99 - per Hoodie re-sale
+
+// $1.78 - per FoamZone Collapsilbe Can Coolie buy price
+// $6.99 - per FoamZone Collapsilbe Can Coolie re-sale
