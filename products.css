@@ -8,6 +8,7 @@ figure {
     margin: 0;
     text-align: center;
     padding-top: 0%;
+    padding-bottom: 5%;
     padding-left: 10%;
 }
 
@@ -18,7 +19,7 @@ figcaption {
 }
 
 a img {
-    width: 50%;
+    width: 200px;
     height: 200px;
 }
 
@@ -50,6 +51,10 @@ h2 {
     text-align: center;
 }
 
+.fig {
+    background: black;
+}
+
 
 /* =========================
    Mobile Styles: 0 to 480px
@@ -59,18 +64,22 @@ h2 {
 @media only screen and (max-width: 557px) {
     .fig {
         display: inline-block;
+        align-content: center;
         background: black;
+        padding-bottom: 6%;
     }
     div {
         background: black;
+        align-content: center;
     }
     figure {
         background: black;
+        padding-bottom: 6%;
+        width: auto;
     }
     img {
         background: black;
-        width: 100%;
-        padding-bottom: 6%;
+        padding-left: 2px;
     }
 }
 
@@ -80,7 +89,12 @@ h2 {
    ============================================
 */
 
-@media only screen and (min-width: 560px) and (max-width: 850px) {}
+@media only screen and (min-width: 560px) and (max-width: 850px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
 
 
 /* ============================================

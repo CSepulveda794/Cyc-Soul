@@ -57,3 +57,35 @@ h2 {
 #t-shirt {
     padding-left: 3%;
 }
+
+section #price {
+    display: none;
+}
+
+#qty,
+#price,
+label,
+#total {
+    float: right;
+    position: absolute;
+    display: inline;
+}
+
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #t-shirt {
+        width: 200%;
+        padding-bottom: 2%;
+    }
+}

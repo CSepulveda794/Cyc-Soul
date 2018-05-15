@@ -16,14 +16,14 @@ html {
     margin: 0;
 }
 
-#button1{
+#button1 {
     width: 5%;
     height: 5%;
     margin-left: 16%;
     float: left;
 }
 
-#button2{
+#button2 {
     width: 5%;
     height: 5%;
     float: left;
@@ -48,4 +48,17 @@ h2 {
     width: 40%;
     float: right;
     transform: translateY(-485px);
+}
+
+@media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #mug {
+        width: 90%;
+        padding-bottom: 2%;
+    }
 }
