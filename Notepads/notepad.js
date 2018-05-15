@@ -85,12 +85,12 @@
 /*==================================End of Calculations===================================*/
 
 
-/*=====================================Sales===============================================*/
-// $20.50 - per shirt buy price
+/*=====================================Sales==============================================*/
+// $5.99 - per shirt buy price
 // $26.50 - per shirt re-sale
 
-// $18.45 - per hat buy price
-// $24.50 - per hat re-sale
+// $14.25 - per hat buy price
+// $21.50 - per hat re-sale
 
 // $5.50 - per T-mug buy price
 // $12.50 - per T-mug re-sale
@@ -103,3 +103,12 @@
 
 // $1.78 - per FoamZone Collapsilbe Can Coolie buy price
 // $6.99 - per FoamZone Collapsilbe Can Coolie re-sale
+
+// $6.75 - per Stainless Steel mug buy price
+// $11.99 - per Stainless steel re-sale
+
+// $3.95 - Cinch up backpack buy price
+// $9.50 - Cinch up backpack re-sale
+
+// $8.90 - Sports-t buy price
+// $28.50 - Sports-t re-sale

@@ -116,4 +116,31 @@
 
 //Find out how to store stuff on local
 
-//
+//Started on making styles for tablet
+
+// ============================================================
+/*Day 12*/
+//Continuation of the local storeage
+
+//Started started working validations
+
+//Started making the nav mobile
+
+// ============================================================
+/*Day 13*/
+//Continue working on the local storeage
+
+//Start working on the footer styles
+
+//Started fixing the bootstrap on our index
+
+//Started adding stuff to eco plan
+// ============================================================
+/*Day 14*/
+//Started adding more products for our page
+
+//Started looking into our sourses
+
+//Started fixing the bug about the inconsistent nav
+
+//Added more locations on our google maps for drives
