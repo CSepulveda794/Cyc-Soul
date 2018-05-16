@@ -40,6 +40,11 @@ h1 {
     color: white;
     padding-left: 13%;
 }
+p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
 
 h2 {
     color: grey;
@@ -50,7 +55,7 @@ h2 {
     background: white;
     width: 40%;
     float: right;
-    transform: translateY(-425px);
+    transform: translateY(-132%);
     height: 60%;
 }
 
