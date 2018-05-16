@@ -245,6 +245,11 @@ figure {
     #nav_2 {
         display: none;
     }
+    
+    figure.buttons{
+        padding-left: 50%;
+    }
+
     .buttonImg {
         display: block;
         margin: 0 auto;
