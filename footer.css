@@ -31,7 +31,7 @@ footer a {
    ============================================
 */
 
-@media only screen and (min-width: 560px) and (max-width: 1140px) {
+@media only screen and (min-width: 560px) and (max-width: 1193px) {
     footer {
         height: 9%;
         text-align: center;
@@ -51,7 +51,7 @@ footer a {
    ============================================
 */
 
-@media only screen and (min-width: 1141px) {
+@media only screen and (min-width: 1194px) {
     footer {
         position: fixed;
         bottom: 0;
