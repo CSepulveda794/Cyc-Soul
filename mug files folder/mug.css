@@ -9,6 +9,11 @@
 html {
     background: black;
 }
+/* p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+} */
 
 #button1 {
     background: white;
@@ -37,6 +42,11 @@ h1 {
     color: white;
     padding-left: 13%;
 }
+p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
 
 h2 {
     color: grey;
@@ -47,7 +57,7 @@ h2 {
     background: white;
     width: 40%;
     float: right;
-    transform: translateY(-110%);
+    transform: translateY(-135%);
 }
 
 #t-shirt {

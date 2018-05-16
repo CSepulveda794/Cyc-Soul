@@ -32,6 +32,11 @@ html {
 section {
     padding-top: 30px;
 }
+p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
 
 h1 {
     color: white;
@@ -47,7 +52,7 @@ h2 {
     background: white;
     width: 40%;
     float: right;
-    transform: translateY(-485px);
+    transform: translateY(-164%);
 }
 
 @media only screen and (max-width: 557px) {
