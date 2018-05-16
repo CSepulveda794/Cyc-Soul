@@ -118,3 +118,7 @@ h1 {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+section {
+    background: rgba(211, 211, 211, .1);
+}
