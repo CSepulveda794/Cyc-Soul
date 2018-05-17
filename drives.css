@@ -9,6 +9,8 @@
 
 .infomation {
     background: rgba( 211, 211, 211, .1);
+    width: 90%;
+    margin: 0 auto;
 }
 
 #container {
