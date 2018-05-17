@@ -5,6 +5,7 @@
 
 */
 
+
 /* 
 html {
     background: radial-gradient(green, black);
@@ -45,6 +46,7 @@ li a {
     text-decoration: none;
 }
 
+
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
@@ -78,6 +80,7 @@ h2 {
     text-align: center;
     padding-bottom: 10px;
 }
+
 
 /* body {
     padding-left: 5%;
@@ -171,9 +174,11 @@ figure {
     background-color: #f7941d;
 }
 
+
 /* img {
     padding: 15px;
 } */
+
 
 /* Start of test 1 */
 
@@ -216,23 +221,25 @@ figure {
     background-color: #f7941d;
 }
 
-a span{
+a span {
     text-decoration: none;
     background: none;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
+
 /* Start of test 1 */
+
 
 /* =========================
    Mobile Styles: 0 to 480px
    =========================
 */
 
-@media only screen and (max-width: 557px) {
+@media only screen and (max-width: 559px) {
     #spin {
         height: 40%;
     }
@@ -267,6 +274,7 @@ a:link{
         align-content: center;
     }
 }
+
 
 /* ============================================
    Tablet Styles: 481px and greater
@@ -319,6 +327,7 @@ a:link{
     }
 }
 
+
 /* ============================================
    Desktop Styles: 760px and greater
    ============================================
@@ -362,6 +371,7 @@ a:link{
     }
 }
 
+
 /* Start */
 
 .button {
@@ -380,5 +390,6 @@ a:link{
     transition: .5s ease;
     background-color: #008CBA;
 }
+
 
 /* end */
