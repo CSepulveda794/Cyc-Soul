@@ -69,6 +69,18 @@ h1 {
     padding: 0 16px;
 }
 
+.address {
+    float: right;
+    padding-right: 8.6%;
+    transform: translateY(-165%);
+}
+
+.city {
+    float: right;
+    padding-right: 8.6%;
+    transform: translateY(-90%);
+}
+
 .donate .owner {
     width: 63%;
     margin-right: 10px;

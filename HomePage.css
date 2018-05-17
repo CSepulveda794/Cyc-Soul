@@ -240,6 +240,10 @@ a:link {
 */
 
 @media only screen and (max-width: 559px) {
+    #container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #spin {
         height: 40%;
     }
@@ -282,6 +286,10 @@ a:link {
 */
 
 @media only screen and (min-width: 560px) and (max-width: 850px) {
+    #container {
+        padding-left: 3.1%;
+        padding-right: 3.1%;
+    }
     #desktop {
         display: block;
     }
@@ -304,13 +312,12 @@ a:link {
         display: block;
         margin: 0 auto;
         padding: none;
-        padding-left: 5%;
         border: none;
         align-content: center;
         justify-content: center;
     }
     figure.buttons {
-        padding-bottom: 100px
+        padding-bottom: 100px;
     }
     figcaption {
         background-attachment: fixed;
