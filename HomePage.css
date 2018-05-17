@@ -216,6 +216,15 @@ figure {
     background-color: #f7941d;
 }
 
+a span{
+    text-decoration: none;
+    background: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
 /* Start of test 1 */
 
 /* =========================
