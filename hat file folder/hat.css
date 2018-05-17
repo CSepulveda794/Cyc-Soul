@@ -32,7 +32,8 @@ html {
 section {
     padding-top: 30px;
 }
-p{
+
+p {
     color: white;
     padding-left: 5%;
     font-size: 2em;
@@ -56,6 +57,19 @@ h2 {
 }
 
 @media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #mug {
+        width: 90%;
+        padding-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 850px) {
     #form {
         transform: none;
         float: left;

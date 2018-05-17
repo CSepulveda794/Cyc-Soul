@@ -1,9 +1,9 @@
 #mug {
-    width: 35%;
+    width: 25%;
     height: 60%;
     padding-top: 3%;
     display: block;
-    margin-left: 2%;
+    margin-left: 12%;
 }
 
 html {
@@ -19,11 +19,13 @@ html {
     margin-left: 10%;
     float: left;
 }
-p{
+
+p {
     color: white;
     padding-left: 5%;
     font-size: 2em;
 }
+
 #button2 {
     background: white;
     width: 5%;
