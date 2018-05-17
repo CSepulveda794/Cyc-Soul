@@ -1,0 +1,72 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgb(73, 174, 78);
+    width: 100%;
+    height: 5%;
+    color: white;
+    padding-left: 5%;
+    padding-top: 0.5%
+}
+
+footer a {
+    padding-left: 35%;
+    color: white;
+}
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 560px) {
+    footer {
+        display: none;
+    }
+}
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 560px) and (max-width: 1193px) {
+    footer {
+        height: 9%;
+        text-align: center;
+        padding: none;
+    }
+    footer a {
+        text-decoration: none;
+        padding-left: 0;
+    }
+    span {
+        display: block;
+    }
+}
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 1194px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: rgb(73, 174, 78);
+        width: 100%;
+        height: 5%;
+    }
+    footer a {
+        padding: 0;
+    }
+    span {
+        display: inline;
+    }
+    #move{
+        padding-left: 35%;
+    }
+}

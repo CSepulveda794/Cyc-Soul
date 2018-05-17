@@ -1,0 +1,83 @@
+#hat {
+    width: 40%;
+    display: block;
+    margin-left: 2%;
+    padding-top: 3%;
+}
+
+html {
+    background: black;
+}
+
+#black {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0;
+}
+
+#button1 {
+    width: 5%;
+    height: 5%;
+    margin-left: 16%;
+    float: left;
+}
+
+#button2 {
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+
+section {
+    padding-top: 30px;
+}
+
+p {
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
+
+h1 {
+    color: white;
+    padding-left: 13%;
+}
+
+h2 {
+    color: grey;
+    padding-left: 13%;
+}
+
+#form {
+    background: white;
+    width: 40%;
+    float: right;
+    transform: translateY(-164%);
+}
+
+@media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #mug {
+        width: 90%;
+        padding-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 850px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #mug {
+        width: 90%;
+        padding-bottom: 2%;
+    }
+}

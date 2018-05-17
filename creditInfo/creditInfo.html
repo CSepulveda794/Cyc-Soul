@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>creditInfo</title>
+    <link rel="stylesheet" href="credit.css">
+    <link rel="stylesheet" href="../donate.css">
+    <link rel="stylesheet" href="../nav.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav_1">
+            <ul>
+                <table id="center">
+                    <img src="../logo.png" alt="logo" style="width: 70px" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="../index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../locations.html">Locations</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="../name.png" alt="Cyc-soul" width="70px" id="name">
+                </table>
+            </ul>
+        </nav>
+
+        <!-- Nav 2 -->
+        <nav id="nav_2">
+            <ul>
+                <table id="center">
+                    <img src="../logo.png" alt="logo" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="../index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../locations.html">Locations</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="../products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="../drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="../name.png" alt="Cyc-soul" id="name">
+                </table>
+            </ul>
+        </nav>
+        <!-- Start of test 1-->
+        <section id="nav_3">
+            <div class="nav" id="nav">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <a href="../index.html">Home Page</a>
+                <a href="../aboutUs.html">About Us</a>
+                <a href="../locations.html">Locations</a>
+                <a href="../products.html">Products</a>
+                <a href="../donations.html">Ways To Give</a>
+                <a href="../drives.html">Shoe Drives</a>
+            </div>
+            <span id="open" class="open" onclick="openNav()">&#9776</span>
+        </section>
+
+        <!-- End of test 1-->
+    </header>
+    <div class="donate">
+        <h1>Total Cost</h1>
+        <div class="payment">
+            <form id="order">
+                <div>
+                    <label for="donate">Cost</label>
+                    <input type="text" name="Cost" id="Cost" readonly>
+                </div>
+                <br>
+                <div class="group owner">
+                    <label for="owner">Name on Card</label>
+                    <input type="text" class="form-control" id="owner" placeholder="Company" required oninvalid="this.setCustomValidity('Please enter the name on the card')"
+                    oninput="setCustomValidity('')">
+                </div>
+                <div class="group CVV">
+                    <label for="cvv">CVV</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')"
+                    oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
+                    <!-- three numbers -->
+                </div>
+                <div class="group" id="card-numberField">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')"
+                    oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
+                    <!-- nine numbers -->
+                </div>
+                <div class="group" id="expirationDate">
+                    <label>Expiration Date</label>
+                    <select>
+                        <option value="01">January</option>
+                        <option value="02">February </option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <select>
+                        <option value="19"> 2019</option>
+                        <option value="20"> 2020</option>
+                        <option value="21"> 2021</option>
+                        <option value="22"> 2022</option>
+                        <option value="23"> 2023</option>
+                        <option value="24"> 2024</option>
+                    </select>
+                </div>
+                <!-- Images -->
+                <!-- <div class="form-group" id="credit_cards">
+            <img src="assets/images/visa.jpg" id="visa">
+            <img src="assets/images/mastercard.jpg" id="mastercard">
+            <img src="assets/images/amex.jpg" id="amex">
+          </div> -->
+                <div class="group" id="donateNow">
+                    <button type="submit" class="_1">Donate Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="credit.js"></script>
+    <script src="../t-shirt file folder/tshirt.js"></script>
+    <!-- <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script> -->
+    <script>
+        function openNav() {
+            document.getElementById("open").style.display = "none";
+            document.getElementById("nav").style.width = "100%";
+        }
+    
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("open").style.display = "block"
+        }
+    </script>
+</body>
+
+</html>

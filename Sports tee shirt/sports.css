@@ -1,0 +1,71 @@
+#mug {
+    width: 35%;
+    height: 60%;
+    padding-top: 3%;
+    display: block;
+    margin-left: 2%;
+}
+
+html {
+    background: black;
+}
+
+#button1 {
+    background: white;
+    width: 5%;
+    height: 5%;
+    display: block;
+    margin: 0;
+    margin-left: 10%;
+    float: left;
+}
+
+#button2 {
+    background: white;
+    width: 5%;
+    height: 5%;
+    float: left;
+    display: block;
+    margin: 0;
+}
+p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
+section {
+    padding-top: 30px;
+}
+
+h1 {
+    color: white;
+    padding-left: 13%;
+}
+
+h2 {
+    color: grey;
+    padding-left: 13%;
+}
+
+#form {
+    background: white;
+    width: 40%;
+    float: right;
+    transform: translateY(-170%);
+}
+
+#t-shirt {
+    padding-left: 3%;
+}
+
+@media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #mug {
+        width: 98%;
+        padding-bottom: 2%;
+    }

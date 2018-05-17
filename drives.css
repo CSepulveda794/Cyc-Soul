@@ -1,0 +1,27 @@
+.infomation h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.infomation p {
+    color: white;
+}
+
+.infomation {
+    background: rgba( 211, 211, 211, .1);
+    width: 90%;
+    margin: 0 auto;
+}
+
+#container {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+p {
+    padding-left: 5%;
+}
+
+#form {
+    background: rgba( 211, 211, 211, .1);
+}

@@ -1,37 +1,258 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="HomePage.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="icon" href="logo.png">
     <title>Ways to Give</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-        <nav>
-          <ul>
-            <img src="logo.png" alt="logo" style="width: 70px" id="logo">
-            <li id="navLink">
-              <a href="index.html">Home Page</a>
-            </li>
-            <li id="navLink">
-              <a href="aboutUs.html">About Us</a>
-            </li>
-            <li id="navLink">
-              <a href="locations.html">Locations</a>
-            </li>
-            <li id="navLink">
-              <a href="products.html">Products</a>
-            </li>
-            <li id="navLink">
-              <a href="donations.html">Ways To Give</a>
-            </li>
-            <li id="navLink">
-              <a href="contact.html">Contact Us</a>
-            </li>
-            <img src="name.png" alt="Cyc-soul" width="70px" id="name">
-          </ul>
+        <nav id="nav_1">
+            <ul>
+                <table id="center">
+                    <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="locations.html">Locations</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="name.png" alt="Cyc-soul" width="70px" id="name">
+                </table>
+            </ul>
         </nav>
+
+        <!-- Nav 2 -->
+        <nav id="nav_2">
+            <ul>
+                <table id="center">
+                    <img src="logo.png" alt="logo" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="locations.html">Locations</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="name.png" alt="Cyc-soul" id="name">
+                </table>
+            </ul>
+        </nav>
+        <!-- Start of test 1-->
+        <section id="nav_3">
+            <div class="nav" id="nav">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home Page</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="locations.html">Locations</a>
+                <a href="products.html">Products</a>
+                <a href="donations.html">Ways To Give</a>
+                <a href="drives.html">Shoe Drives</a>
+            </div>
+            <span id="open" class="open" onclick="openNav()">&#9776</span>
+        </section>
+
+        <!-- End of test 1-->
     </header>
-  </body>
+    <!-- create form here for voulunteers and maybe an actual contact with an emailor phone -->
+    <form id="voulunteer">
+        <h1>Volunteer</h1>
+        First name:
+        <br>
+        <input type="text" name="firstname" placeholder="First" required oninvalid="this.setCustomValidity('Please enter your first name')"
+            oninput="setCustomValidity('')">
+        <br> Last name:
+        <br>
+        <input type="text" name="lastname" placeholder="Last" required oninvalid="this.setCustomValidity('Please enter your last name')"
+            oninput="setCustomValidity('')">
+        <br> Gender:
+        <br>
+        <select name="gender" required oninvalid="this.setCustomValidity('Please enter your gender')" oninput="setCustomValidity('')">
+            <option value="">(Select One)</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    <br> City you Live in:
+    <br>
+    <input type="text" required oninvalid="this.setCustomValidity('Please enter the city you currently reside in')" oninput="setCustomValidity('')">
+    <div class="group" id="donateNow">
+      <button type="submit" class="_1">Sign up Now</button>
+    </div>
+  </form>
+
+  <!-- ======================================= -->
+  <div class="donate" id="donate">
+    <h1>Donate</h1>
+    <div class="payment">
+      <form>
+        <div>
+          <label for="donate">Amount To Donate</label>
+          <input type="number" min="0" value="10">
+        </div>
+        <br>
+        <div class="group CVV">
+          <label for="cvv">CVV</label>
+          <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')"
+          oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
+          <!-- three numbers -->
+        </div>
+        <div class="group" id="card-numberField">
+          <label for="cardNumber">Card Number</label>
+          <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')"
+          oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
+          <!-- nine numbers -->
+        </div>
+        <div class="group" id="expirationDate">
+          <label>Expiration Date</label>
+          <select>
+                        <option value="01">January</option>
+                        <option value="02">February </option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+          <select>
+                        <option value="19"> 2019</option>
+                        <option value="20"> 2020</option>
+                        <option value="21"> 2021</option>
+                        <option value="22"> 2022</option>
+                        <option value="23"> 2023</option>
+                        <option value="24"> 2024</option>
+                    </select>
+        </div>
+        <!-- Images -->
+        <!-- <div class="form-group" id="credit_cards">
+            <img src="assets/images/visa.jpg" id="visa">
+            <img src="assets/images/mastercard.jpg" id="mastercard">
+            <img src="assets/images/amex.jpg" id="amex">
+          </div> -->
+        <div class="group" id="donateNow">
+          <button type="submit" class="_1">Donate Now</button>
+
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+    <form id="boxes">
+        <h1>Donation Boxes</h1>
+        Name:
+        <br>
+        <input type="text" name="name" placeholder="Last name, First name" required oninvalid="this.setCustomValidity('Please enter your first and last name')"
+            oninput="setCustomValidity('')">
+        <br> State:
+        <br>
+        <input type="text" name="state" placeholder="state" required oninvalid="this.setCustomValidity('Please enter the state that your currently reside in')"
+            oninput="setCustomValidity('')">
+        <br> City:
+        <br>
+        <input type="text" name="city" placeholder="city" required oninvalid="this.setCustomValidity('Please enter the city that you currently reside in')"
+            oninput="setCustomValidity('')">
+        <br> Zip:
+        <br>
+        <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please enter your zip code')"
+            oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
+        <br>
+        <div class="group" id="donateNow">
+            <button type="submit" class="_1">Search Now</button>
+        </div>
+    </form>
+
+    <!-- State, location, zip-code, name. -->
+
+
+
+    <footer id="footer">
+        <a href="index.html">
+            <span>Cyc-Soul</span>
+        </a>
+        <a href="mailto:cyc-soul@gmail.com">
+            <span id="move">cyc-soul@gmail.com</span>
+        </a>
+        <a href="tel:+(623)123-1234">
+            <span id="move">(623)123-1234</span>
+        </a>
+    </footer>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("open").style.display = "none";
+        document.getElementById("nav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
+        document.getElementById("open").style.display = "block"
+    }
+</script>
+
 </html>

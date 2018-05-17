@@ -1,0 +1,105 @@
+html {
+    background: black;
+}
+
+figure {
+    width: 30%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+figcaption {
+    font-size: 2em;
+    color: white;
+    background: radial-gradient(green, black);
+}
+
+a img {
+    width: 200px;
+    height: 200px;
+}
+
+#t-shirt,
+#hat {
+    width: 200px;
+    padding-bottom: 5%;
+}
+
+
+/* a #mug {
+    height: 90%;
+} */
+
+section {
+    background: black;
+    padding-bottom: 120px;
+}
+
+h1 {
+    padding-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.fig {
+    background: black;
+}
+
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 557px) {
+    .fig {
+        display: inline-block;
+        align-content: center;
+        background: black;
+        padding-bottom: 6%;
+    }
+    div {
+        background: black;
+        align-content: center;
+    }
+    figure {
+        background: black;
+        padding-bottom: 6%;
+        width: auto;
+    }
+    img {
+        background: black;
+        padding-left: 2px;
+    }
+}
+
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 560px) and (max-width: 850px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 851px) {}

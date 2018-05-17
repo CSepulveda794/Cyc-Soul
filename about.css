@@ -1,0 +1,111 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+
+header {
+  background: black;
+  padding-bottom: 20px;
+}
+
+#info {
+  width: 100%;
+}
+
+#info div {
+  margin: 5% auto;
+  width: 50%;
+  text-align: center;
+}
+
+div#about {
+  /*width: 300px;*/
+  border: 25px solid #86BBD8;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
+}
+
+div#vision {
+  /*width: 300px;*/
+  border: 25px solid #758E4F;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
+}
+
+div#mission {
+  /*width: 300px;*/
+  border: 25px solid #4BC6B9;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
+}
+
+div#contact {
+  border: 25px solid #404E5C;
+  padding: 25px;
+  background-color: white;
+  border-radius: 60%;
+}
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 560px) {
+  div#about {
+    border: 100% solid #86BBD8;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 0%;
+    margin: 0;
+    margin-top: 5%;
+  }
+  div#vision {
+    border: 100% solid #758E4F;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
+  }
+  div#mission {
+    border: 100% solid #4BC6B9;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
+  }
+  div#contact {
+    border: 100% solid #404E5C;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+/* ============================================
+   Tablet Styles: 481px and greater
+   ============================================
+*/
+
+/* @media only screen and (min-width: 560px) and (max-width: 850px) {
+
+} */
+
+/* ============================================
+   Desktop Styles: 760px and greater
+   ============================================
+*/
+
+@media only screen and (min-width: 851px) {}

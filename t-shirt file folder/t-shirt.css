@@ -1,0 +1,96 @@
+html {
+    background: black;
+}
+
+#black {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: 0;
+}
+
+body{
+    background: black;
+}
+
+#button1 {
+    background: black;
+    height: 5%;
+    width: 5%;
+    margin-left: 17%;
+}
+
+#button2 {
+    background: #36454f;
+    height: 5%;
+    width: 5%;
+}
+
+#button3 {
+    background: grey;
+    height: 5%;
+    width: 5%;
+}
+
+.buttons {
+    display: inline;
+}
+
+h1 {
+    color: white;
+    padding-left: 13%;
+}
+p{
+    color: white;
+    padding-left: 5%;
+    font-size: 2em;
+}
+
+h2 {
+    color: grey;
+    padding-left: 30%;
+}
+
+#form {
+    background: white;
+    width: 40%;
+    float: right;
+    transform: translateY(-132%);
+    height: 60%;
+}
+
+#t-shirt {
+    padding-left: 3%;
+}
+
+section #price {
+    display: none;
+}
+
+#qty,
+#price,
+label,
+#total {
+    float: right;
+    position: absolute;
+    display: inline;
+}
+
+
+/* =========================
+   Mobile Styles: 0 to 480px
+   =========================
+*/
+
+@media only screen and (max-width: 557px) {
+    #form {
+        transform: none;
+        float: left;
+        width: 100%;
+        padding-bottom: 6%;
+    }
+    #t-shirt {
+        width: 200%;
+        padding-bottom: 2%;
+    }
+}
