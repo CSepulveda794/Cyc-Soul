@@ -41,7 +41,7 @@ section {
 
 h1 {
     padding-top: 3%;
-    color: white;
+    color: lightgray;
     text-align: center;
     font-size: 3em;
 }
@@ -90,9 +90,15 @@ h2 {
 */
 
 @media only screen and (min-width: 560px) and (max-width: 850px) {
-    img {
+    a img {
         width: 150px;
         height: 150px;
+    }
+    #hat {
+        width: 130px;
+    }
+    #t-shirt {
+        width: 130px;
     }
 }
 
