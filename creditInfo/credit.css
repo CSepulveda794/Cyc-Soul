@@ -8,3 +8,161 @@
 html {
     background: black;
 }
+
+body {
+    background: black;
+    padding: 0px;
+}
+
+#boxes {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+#voulunteer {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+#voulunteer ._1 {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: rgb(55, 184, 156);
+    color: white;
+}
+
+
+/* Donate styles */
+
+.donate {
+    max-width: 700px;
+    background-color: white;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: gray;
+}
+
+.donate label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.donate .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.donate .payment .group {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.donate .payment .control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+
+.address {
+    float: right;
+    padding-right: 8.6%;
+    transform: translateY(-165%);
+}
+
+.city {
+    float: right;
+    padding-right: 8.6%;
+    transform: translateY(-90%);
+}
+
+.donate .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+
+.donate .CVV {
+    width: 35%;
+}
+
+.donate #card-numberField {
+    width: 100%;
+}
+
+.donate #expirationDate {
+    width: 49%;
+}
+
+.donate #creditCards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.donate #donateNow {
+    width: 100%;
+    margin-top: 25px;
+}
+
+._1 {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: rgb(55, 184, 156);
+    color: white;
+}
+
+.donate .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 860px) {
+
+    .donate{
+        transform: translateY(10%);
+    }
+    #voulunteer {
+        transform: translateY(39px);
+    }
+    .address {
+        float: left;
+        transform: none;
+    }
+    
+    .city {
+        float: left;
+        transform: none;
+    }
+    
+
+}
