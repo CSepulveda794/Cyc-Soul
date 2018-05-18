@@ -61,7 +61,7 @@ h2 {
    =========================
 */
 
-@media only screen and (max-width: 557px) {
+@media only screen and (max-width: 419px) {
     .fig {
         display: inline-block;
         align-content: center;
@@ -89,16 +89,18 @@ h2 {
    ============================================
 */
 
-@media only screen and (min-width: 560px) and (max-width: 850px) {
+@media only screen and (min-width: 558px) and (max-width: 850px) {
     a img {
         width: 150px;
         height: 150px;
     }
-    #hat {
-        width: 130px;
+
+    #t-shirt, #hat{
+        width: 150px;
     }
-    #t-shirt {
-        width: 130px;
+
+    figcaption{
+        font-size: 1em;
     }
 }
 
