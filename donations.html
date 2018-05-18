@@ -120,12 +120,10 @@
         <h1>Volunteer</h1>
         First name:
         <br>
-        <input type="text" name="firstname" placeholder="First" required oninvalid="this.setCustomValidity('Please enter your first name')"
-            oninput="setCustomValidity('')">
+        <input type="text" name="firstname" placeholder="First" required oninvalid="this.setCustomValidity('Please enter your first name')" oninput="setCustomValidity('')">
         <br> Last name:
         <br>
-        <input type="text" name="lastname" placeholder="Last" required oninvalid="this.setCustomValidity('Please enter your last name')"
-            oninput="setCustomValidity('')">
+        <input type="text" name="lastname" placeholder="Last" required oninvalid="this.setCustomValidity('Please enter your last name')" oninput="setCustomValidity('')">
         <br> Gender:
         <br>
         <select name="gender" required oninvalid="this.setCustomValidity('Please enter your gender')" oninput="setCustomValidity('')">
@@ -133,39 +131,37 @@
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
-    <br> City you Live in:
-    <br>
-    <input type="text" required oninvalid="this.setCustomValidity('Please enter the city you currently reside in')" oninput="setCustomValidity('')">
-    <div class="group" id="donateNow">
-      <button type="submit" class="_1">Sign up Now</button>
-    </div>
-  </form>
-
-  <!-- ======================================= -->
-  <div class="donate" id="donate">
-    <h1>Donate</h1>
-    <div class="payment">
-      <form>
-        <div>
-          <label for="donate">Amount To Donate</label>
-          <input type="number" min="0" value="10">
-        </div>
+        <br> City you Live in:
         <br>
-        <div class="group CVV">
-          <label for="cvv">CVV</label>
-          <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')"
-          oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
-          <!-- three numbers -->
+        <input type="text" required oninvalid="this.setCustomValidity('Please enter the city you currently reside in')" oninput="setCustomValidity('')">
+        <div class="group" id="donateNow">
+            <button type="submit" class="_1">See Whats Available Near You</button>
         </div>
-        <div class="group" id="card-numberField">
-          <label for="cardNumber">Card Number</label>
-          <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')"
-          oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
-          <!-- nine numbers -->
-        </div>
-        <div class="group" id="expirationDate">
-          <label>Expiration Date</label>
-          <select>
+    </form>
+
+    <!-- ======================================= -->
+    <div class="donate" id="donate">
+        <h1>Donate</h1>
+        <div class="payment">
+            <form>
+                <div>
+                    <label for="donate">Amount To Donate</label>
+                    <input type="number" min="0" value="10">
+                </div>
+                <br>
+                <div class="group CVV">
+                    <label for="cvv">CVV</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="XXX" required oninvalid="this.setCustomValidity('Enter a valid CVV')" oninput="setCustomValidity('')" pattern="^[0-9]{3}$">
+                    <!-- three numbers -->
+                </div>
+                <div class="group" id="card-numberField">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required oninvalid="this.setCustomValidity('Enter a valid card number')" oninput="setCustomValidity('')" pattern="\d{4}-?\d{4}-?\d{4}-?\d{4}">
+                    <!-- nine numbers -->
+                </div>
+                <div class="group" id="expirationDate">
+                    <label>Expiration Date</label>
+                    <select>
                         <option value="01">January</option>
                         <option value="02">February </option>
                         <option value="03">March</option>
@@ -179,7 +175,7 @@
                         <option value="11">November</option>
                         <option value="12">December</option>
                     </select>
-          <select>
+                    <select>
                         <option value="19"> 2019</option>
                         <option value="20"> 2020</option>
                         <option value="21"> 2021</option>
@@ -187,40 +183,36 @@
                         <option value="23"> 2023</option>
                         <option value="24"> 2024</option>
                     </select>
-        </div>
-        <!-- Images -->
-        <!-- <div class="form-group" id="credit_cards">
+                </div>
+                <!-- Images -->
+                <!-- <div class="form-group" id="credit_cards">
             <img src="assets/images/visa.jpg" id="visa">
             <img src="assets/images/mastercard.jpg" id="mastercard">
             <img src="assets/images/amex.jpg" id="amex">
           </div> -->
-        <div class="group" id="donateNow">
-          <button type="submit" class="_1">Donate Now</button>
+                <div class="group" id="donateNow">
+                    <button type="submit" class="_1">Donate Now</button>
 
 
+                </div>
+            </form>
         </div>
-      </form>
     </div>
-  </div>
 
     <form id="boxes">
         <h1>Donation Boxes</h1>
         Name:
         <br>
-        <input type="text" name="name" placeholder="Last name, First name" required oninvalid="this.setCustomValidity('Please enter your first and last name')"
-            oninput="setCustomValidity('')">
+        <input type="text" name="name" placeholder="Last name, First name" required oninvalid="this.setCustomValidity('Please enter your first and last name')" oninput="setCustomValidity('')">
         <br> State:
         <br>
-        <input type="text" name="state" placeholder="state" required oninvalid="this.setCustomValidity('Please enter the state that your currently reside in')"
-            oninput="setCustomValidity('')">
+        <input type="text" name="state" placeholder="state" required oninvalid="this.setCustomValidity('Please enter the state that your currently reside in')" oninput="setCustomValidity('')">
         <br> City:
         <br>
-        <input type="text" name="city" placeholder="city" required oninvalid="this.setCustomValidity('Please enter the city that you currently reside in')"
-            oninput="setCustomValidity('')">
+        <input type="text" name="city" placeholder="city" required oninvalid="this.setCustomValidity('Please enter the city that you currently reside in')" oninput="setCustomValidity('')">
         <br> Zip:
         <br>
-        <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please enter your zip code')"
-            oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
+        <input type="text" name="zip" placeholder="zip-code" required oninvalid="this.setCustomValidity('Please enter your zip code')" oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br>
         <div class="group" id="donateNow">
             <button type="submit" class="_1">Search Now</button>
