@@ -57,6 +57,20 @@ function validateRequired() {
     }
 }
 
+function validateRadio() {
+    var cards = document.getElementsByName("YoN");
+    if (!cards[0].checked && !cards[1].checked && !cards[2].checked && !cards[3].checked) {
+        for (var i = 0; i < cards.length; i++) {
+            cards[i].style.outline = "1px solid rgb(255,0,0)";
+        }
+        fieldsetValidity = false;
+    } else {
+        for (var i = 0; i < cards.length; i++) {
+            cards[i].style.outline = "";
+        }
+    }
+}
+
 //An function that would call all the other functions
 function createEventListeners() {
      var form = document.getElementsByTagName("form")[0];

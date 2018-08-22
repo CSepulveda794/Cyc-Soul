@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="buckler.css">
+    <link rel="icon" href="logo.png">
+    <script src="js/buckler.js"></script>
+    <title>Shoe Drives</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav_1">
+            <ul>
+                <table id="center">
+                    <img src="logo.png" alt="logo" style="width: 70px" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="locations.html">Locations</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="name.png" alt="Cyc-soul" width="70px" id="name">
+                </table>
+            </ul>
+        </nav>
+
+        <!-- Nav 2 -->
+        <nav id="nav_2">
+            <ul>
+                <table id="center">
+                    <img src="logo.png" alt="logo" id="logo">
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="index.html">Home Page</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="aboutUs.html">About Us</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="locations.html">Locations</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <li id="navLink">
+                                <a href="products.html">Products</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="donations.html">Ways To Give</a>
+                            </li>
+                        </th>
+                        <th>
+                            <li id="navLink">
+                                <a href="drives.html">Shoe Drives</a>
+                            </li>
+                        </th>
+                    </tr>
+                    <img src="name.png" alt="Cyc-soul" id="name">
+                </table>
+            </ul>
+        </nav>
+        <!-- Start of test 1-->
+        <section id="nav_3">
+            <div class="nav" id="nav">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home Page</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="locations.html">Locations</a>
+                <a href="products.html">Products</a>
+                <a href="donations.html">Ways To Give</a>
+                <a href="drives.html">Shoe Drives</a>
+            </div>
+            <span id="open" class="open" onclick="openNav()">&#9776</span>
+        </section>
+
+        <!-- End of test 1-->
+    </header>
+
+    <!-- Started on Buckler's project here -->
+    <!-- Getting rid of html validations -->
+    <!-- Used novalidate to erase html validations and gotten rid of html validations that we had before -->
+    <!-- todo Start adding some selection list and change drive styles -->
+    <form id="boxes" novalidate="novalidate">
+        <h1>Start a Shoe Drive</h1>
+        Name:
+        <br>
+        <input type="text" name="name"  oninput="setCustomValidity('')">
+        <br> State:
+        <br>
+        <input type="text" name="state"  oninput="setCustomValidity('')">
+        <br> City:
+        <br>
+        <input type="text" name="city"  oninput="setCustomValidity('')">
+        <br> Zip:
+        <br>
+        <input type="text" name="zip"  oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
+        <br> Drive Location
+        <br>
+        <input type="text" name="description"  oninput="setCustomValidity('')">
+        <br> Choose gender
+        <br>
+        <select name="gender" id="gender">
+            <option value="choose">(Choose a type of male)</option>
+            <option value="male">Male</option>
+            <option value="notMale">Non-male</option>
+        </select>
+        <br>Are you sure
+        <br>No
+        <input type="radio" name="YoN" id="YoN" value="Trash">
+        Yes
+        <input type="radio" name="YoN" id="YoN" value="Trash">
+        <br>
+        <div id="errorText"></div>
+        <br>
+        <div class="group" id="donateNow">
+            <button type="submit" class="_1">Search Now</button>
+        </div>
+    </form>
