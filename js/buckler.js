@@ -57,16 +57,32 @@ function validateRequired() {
     }
 }
 
-function validateRadio() {
-    var cards = document.getElementsByName("YoN");
-    if (!cards[0].checked && !cards[1].checked && !cards[2].checked && !cards[3].checked) {
-        for (var i = 0; i < cards.length; i++) {
-            cards[i].style.outline = "1px solid rgb(255,0,0)";
+function validateSelect() {
+    var validity = true;
+    var select = document.getElementsByName("gender");
+    if (!select[0].value && !select[1].value && !select[2].value) {
+        for (var i = 0; i < select.length; i++) {
+            select[i].style.outline = "1px solid rgb(255,0,0)";
         }
-        fieldsetValidity = false;
+        validity = false;
     } else {
-        for (var i = 0; i < cards.length; i++) {
-            cards[i].style.outline = "";
+        for (var i = 0; i < select.length; i++) {
+            select[i].style.outline = "";
+        }
+    }
+}
+
+function validateRadio() {
+    var validity = true;
+    var radio = document.getElementsByName("YoN");
+    if (!radio[0].checked && !radio[1].checked) {
+        for (var i = 0; i < radio.length; i++) {
+            radio[i].style.outline = "1px solid rgb(255,0,0)";
+        }
+        validity = false;
+    } else {
+        for (var i = 0; i < radio.length; i++) {
+            radio[i].style.outline = "";
         }
     }
 }
@@ -79,6 +95,9 @@ function createEventListeners() {
     } else {
         form.addEventListener("onsubmit", validateForm)
     }
+
+    validateRadio();
+    validateSelect();
 }
 
 addEventListener("load", createEventListeners);
