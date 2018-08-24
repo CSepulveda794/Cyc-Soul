@@ -79,6 +79,15 @@ function validateRequired() {
             select.style.outline = "";
     }
 
+    //This part of the code validates the Checkboxes
+    var chkBox = document.getElementsByClassName("chk");
+    if (!chkBox[0].checked && !chkBox[1].checked && !chkBox[1].checked) {
+        chkBox[i].style.outline = "1px solid rgb(255,0,0)";
+        validity = false;
+    } else if (chk[0].checked || chk[1].checked || chk[3].checked) {
+        chkBox[i].style.outline = "";
+    }
+
 }
 
 //An function that would call all the other functions

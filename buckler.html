@@ -125,19 +125,19 @@
         <h1>Start a Shoe Drive</h1>
         Name:
         <br>
-        <input type="text" name="name"  oninput="setCustomValidity('')">
+        <input type="text" name="name" oninput="setCustomValidity('')">
         <br> State:
         <br>
-        <input type="text" name="state"  oninput="setCustomValidity('')">
+        <input type="text" name="state" oninput="setCustomValidity('')">
         <br> City:
         <br>
-        <input type="text" name="city"  oninput="setCustomValidity('')">
+        <input type="text" name="city" oninput="setCustomValidity('')">
         <br> Zip:
         <br>
-        <input type="text" name="zip"  oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
+        <input type="text" name="zip" oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br> Drive Location
         <br>
-        <input type="text" name="description"  oninput="setCustomValidity('')">
+        <input type="text" name="description" oninput="setCustomValidity('')">
         <br> Choose gender
         <br>
         <select name="gender" id="gender">
@@ -147,10 +147,16 @@
         </select>
         <br>Are you sure
         <br>No
-        <input type="radio" name="YoN" id="YoN" value="Trash">
-        Yes
+        <input type="radio" name="YoN" id="YoN" value="Trash"> Yes
         <input type="radio" name="YoN" id="YoN" value="Trash">
         <br>
+        <br>
+        <h6>Rate us</h6>
+        <input type="checkbox" name="good" id="good" class="chk"> Bad
+        <br>
+        <input type="checkbox" name="bad" id="bad" class="chk"> Good
+        <br>
+        <input type="checkbox" name="ok" id="ok" class="chk"> decent
         <div id="errorText"></div>
         <br>
         <div class="group" id="donateNow">
