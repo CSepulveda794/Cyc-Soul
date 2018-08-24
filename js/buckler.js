@@ -70,21 +70,13 @@ function validateRequired() {
         }
     }
 
-
-    //This part of the code validates the Selection list
-    var validity = true;
-    var select = document.getElementsByName("gender");
-    var selectAmountLength = select.length;
-    currentElement = select[i];
-    if (!select[0].value && !select[1].value) {
-        for (var i = 0; i < selectAmountLength; i++) {
-            currentElement.style.outline = "1px solid rgb(255,0,0)";
-        }
+    //This part of the code validates the Select lists
+    var select = document.getElementById("gender");
+    if (select.value === "choose") {
+        select.style.outline = "1px solid rgb(255,0,0)";
         validity = false;
-    } else {
-        for (var i = 0; i < selectAmountLength; i++) {
-            currentElement.style.outline = "";
-        }
+    } else if (select.value != "choose"){
+            select.style.outline = "";
     }
 
 }
