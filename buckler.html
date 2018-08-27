@@ -134,16 +134,16 @@
         <input type="text" name="city" oninput="setCustomValidity('')">
         <br> Zip:
         <br>
-        <input type="text" name="zip" oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
+        <input type="number" name="zip" oninput="setCustomValidity('')" pattern="^\d{5}(?:[-\s]\d{4})?$">
         <br> Drive Location
         <br>
         <input type="text" name="description" oninput="setCustomValidity('')">
         <br> Choose gender
         <br>
         <select name="gender" id="gender">
-            <option value="choose">(Choose a type of male)</option>
+            <option value="choose">(Choose a Gender)</option>
             <option value="male">Male</option>
-            <option value="notMale">Non-male</option>
+            <option value="notMale">Female</option>
         </select>
         <br>Are you sure
         <br>No

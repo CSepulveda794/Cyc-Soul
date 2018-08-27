@@ -81,10 +81,12 @@ function validateRequired() {
 
     //This part of the code validates the Checkboxes
     var chkBox = document.getElementsByClassName("chk");
-    if (!chkBox[0].checked && !chkBox[1].checked && !chkBox[1].checked) {
-        chkBox[i].style.outline = "1px solid rgb(255,0,0)";
+    if (!chkBox[0].checked && !chkBox[1].checked && !chkBox[2].checked) {
+        for (let i = 0; i < chkBox.length; i++) {
+            chkBox[i].style.outline = "1px solid rgb(255,0,0)";
+        }
         validity = false;
-    } else if (chk[0].checked || chk[1].checked || chk[3].checked) {
+    } else {
         chkBox[i].style.outline = "";
     }
 
